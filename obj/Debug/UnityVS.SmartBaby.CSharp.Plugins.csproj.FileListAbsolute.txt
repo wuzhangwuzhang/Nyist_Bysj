@@ -1,0 +1,12 @@
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\Bmob-Unity.dll
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\201604 Unity\Nyist-Bysj\SmartBaby\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\201604 Unity\Nyist-Bysj\SmartBaby\obj\Debug\UnityVS.SmartBaby.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\201604 Unity\Nyist-Bysj\SmartBaby\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\201604 Unity\Nyist-Bysj\SmartBaby\obj\Debug\Assembly-CSharp-firstpass.pdb

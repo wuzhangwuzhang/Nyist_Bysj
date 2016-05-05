@@ -1,0 +1,44 @@
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-Editor.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-Editor.pdb
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.Graphs.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.UI.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityVS.VersionSpecific.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.UI.xml
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.Graphs.xml
+D:\Project2015\memory2\obj\Debug\UnityVS.memory2.CSharp.Editor.csprojResolveAssemblyReference.cache
+D:\Project2015\memory2\obj\Debug\Assembly-CSharp-Editor.dll
+D:\Project2015\memory2\obj\Debug\Assembly-CSharp-Editor.pdb
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Bmob-Unity.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-Editor.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-Editor.pdb
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Bmob-Unity.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.Graphs.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.UI.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityVS.VersionSpecific.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.UI.xml
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.Graphs.xml
+D:\201604 Unity\Nyist-Bysj\memory2\obj\Debug\UnityVS.memory2.CSharp.Editor.csprojResolveAssemblyReference.cache
+D:\201604 Unity\Nyist-Bysj\memory2\obj\Debug\Assembly-CSharp-Editor.dll
+D:\201604 Unity\Nyist-Bysj\memory2\obj\Debug\Assembly-CSharp-Editor.pdb

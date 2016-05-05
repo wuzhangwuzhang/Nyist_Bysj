@@ -1,0 +1,24 @@
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Project2015\memory2\obj\Debug\UnityVS.memory2.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\Project2015\memory2\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Project2015\memory2\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\Project2015\memory2\Temp\UnityVS_bin\Debug\Bmob-Unity.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\Bmob-Unity.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\201604 Unity\Nyist-Bysj\memory2\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\201604 Unity\Nyist-Bysj\memory2\obj\Debug\UnityVS.memory2.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\201604 Unity\Nyist-Bysj\memory2\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\201604 Unity\Nyist-Bysj\memory2\obj\Debug\Assembly-CSharp-firstpass.pdb

@@ -1,0 +1,1192 @@
+
+LICENSE SYSTEM [201654 20:39:50] Next license update check is after 2026-04-30T00:00:00
+
+Built from 'release/4.6/patch-release' branch; Version is '4.6.3p3 (088b951bfc62) revision 560021'; Using compiler version '160040219'
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0
+Initialize mono
+Mono path[0] = 'E:/Unity/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'E:/Unity/Editor/Data/UnityScript'
+Mono config path = 'E:/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
+
+ BATCHMODE ARGUMENTS:
+E:\Unity\Editor\Unity.exe
+-batchmode
+-projectPath
+D:\Unity\Nyist-Bysj\SmartBaby\
+-executeMethod
+CommandBuild.Build
+-debug
+-android
+-quit
+-logFile
+./BuildApk.log
+Successfully changed project path to: D:\Unity\Nyist-Bysj\SmartBaby\
+D:/Unity/Nyist-Bysj/SmartBaby
+Loading GUID <-> Path mappings ... 0.009366 seconds.
+Loading Asset Database ...  0.023625 seconds
+AssetDatabase consistency checks ...  0.040572 seconds
+Initialize engine version: 4.6.3p3 (088b951bfc62)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6520G (ID=0x9647)
+    Vendor:   ATI
+    VRAM:     1511 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.6.3 for Unity v4.6.3
+Setting Android v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\androidplayer
+Setting BB10 v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer
+Setting iPhone v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\iossupport
+Setting MetroPlayer v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\metrosupport
+Setting WP8Player v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\wp8support
+Setting GUISystem v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3
+Registering custom dll's ...
+Non platform assembly: data-14EA0020 (this message is harmless)
+Non platform assembly: data-1483D0D8 (this message is harmless)
+Non platform assembly: data-1483D0D8 (this message is harmless)
+Non platform assembly: data-1483D0D8 (this message is harmless)
+Non platform assembly: data-1351B7C0 (this message is harmless)
+Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\androidplayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\iossupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\wp8support/UnityEditor.WP8.Extensions.dll
+Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\metrosupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.056554 seconds.
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
+Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
+Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\androidplayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\PlaybackEngines\androidplayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\iossupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\PlaybackEngines\iossupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\wp8support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\PlaybackEngines\wp8support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\metrosupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\PlaybackEngines\metrosupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: E:\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+System memory in use before: 30.4 MB.
+Unloading 400 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 10.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 720.
+Total: 80.415199 ms (FindLiveObjects: 0.065652 ms CreateObjectMapping: 0.021200 ms MarkObjects: 1.458040 ms  DeleteObjects: 0.015045 ms)
+
+Validating Project structure ... 0.033272 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.091668 seconds
+
+----- Total AssetImport time: 0.059464s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+System memory in use before: 11.9 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 721.
+Total: 6.231552 ms (FindLiveObjects: 0.130621 ms CreateObjectMapping: 0.020516 ms MarkObjects: 1.401278 ms  DeleteObjects: 0.008890 ms)
+
+Build
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:Build() (at Assets\Editor\CommandBuild.cs:97)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 97)
+
+"-android" is detected, switch build target to android.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:UpdateBuildTarget() (at Assets\Editor\CommandBuild.cs:68)
+CommandBuild:Build() (at Assets\Editor\CommandBuild.cs:98)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 68)
+
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 79.106927 ms] 
+
+----- Total AssetImport time: 0.186836s, AssetImport time: 0.132615s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+DisplayProgressbar: Building Player
+building target 13
+Native extension for build target not found
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 13
+- starting compile Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll, for buildtarget 13
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- Finished compile Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 13
+
+-----Compiler Commandline Arguments:
+Filename: E:/Unity/Editor/Data/Mono\bin\mono.exe
+Arguments: E:/Unity/Editor/Data/Mono\lib/mono/unity\smcs.exe  @Temp/UnityTempFile-a41c75d200abfcd44a6eb7534e046d30
+MONO_PATH: E:/Unity/Editor/Data/Mono\lib\mono\unity
+MONO_CFG_DIR: E:/Unity/Editor/Data/Mono\etc
+index: 52
+Responsefile: Temp/UnityTempFile-a41c75d200abfcd44a6eb7534e046d30 Contents: 
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:E:\Unity\Editor\Data\PlaybackEngines\androidplayer/Managed/UnityEngine.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll
+-r:Assets/Plugins/Unity/Bmob-Unity.dll
+-define:UNITY_4_6_3
+-define:UNITY_4_6
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_4_6_FEATURES
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:UNITY5_SCRIPTING_IN_UNITY4
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_MONO
+-define:UNITY_PRO_LICENSE
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/EffectScriptSample.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDetachObject.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDisableDelayActive.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDontActive.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectAniBehaviour.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectBehaviour.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectInitBackup.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcRandomTimerTool.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcRepeatTimerTool.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcTimerTool.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcTransformTool.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NgInterpolate.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NgMath.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsEffectManager.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsRenderManager.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsSharedManager.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAddForce.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAttachPrefab.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAttachSound.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAutoDeactive.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAutoDestruct.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcBillboard.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcChangeAlpha.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcCurveAnimation.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDelayActive.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDetachParent.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDuplicator.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleEmit.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleSpiral.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleSystem.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcRotation.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteAnimation.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteFactory.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteTexture.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcTilingTexture.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcTrailTexture.cs
+Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcUvAnimation.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAnimation.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAssambly.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAsset.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAtlas.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgEnum.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgFile.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgGUIDraw.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgLayout.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgMaterial.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgObject.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgSerialized.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgString.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgTexture.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgUtil.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcDrawFpsRect.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcDrawFpsText.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcSafeTool.cs
+Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcTickTimerTool.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerGrayscaleEffect.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerImageEffectBase.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestControls.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestMain.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestMouse.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSetting.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSimulate.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSingleMain.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSingleMouse.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerAsset.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerBackground.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerCapture.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerClipboard.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerControls.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerEffect.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerGizmo.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerHierarchy.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerLayout.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerMain.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerMouse.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerOption.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerPicking.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerQuickMenu.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerSimulate.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerTooltip.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerWireframe.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcCurveAnimation.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcInfoCurve.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Prefab.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Texture.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmInfoBackground.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmInfoIndexing.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmMenuPopup.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopupManager.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_GameObject.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_Object.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_Transform.cs
+Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmSpritePopup.cs
+Assets/FXMaker/IGSoft_Tools/FXMakerReplayScene/FxmReplayDemo.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs
+Assets/NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs
+Assets/NGUI/Examples/Scripts/Other/ChatInput.cs
+Assets/NGUI/Examples/Scripts/Other/DownloadTexture.cs
+Assets/NGUI/Examples/Scripts/Other/EnvelopContent.cs
+Assets/NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs
+Assets/NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs
+Assets/NGUI/Examples/Scripts/Other/LagPosition.cs
+Assets/NGUI/Examples/Scripts/Other/LagRotation.cs
+Assets/NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs
+Assets/NGUI/Examples/Scripts/Other/LookAtTarget.cs
+Assets/NGUI/Examples/Scripts/Other/OpenURLOnClick.cs
+Assets/NGUI/Examples/Scripts/Other/PanWithMouse.cs
+Assets/NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs
+Assets/NGUI/Examples/Scripts/Other/SetColorOnSelection.cs
+Assets/NGUI/Examples/Scripts/Other/Spin.cs
+Assets/NGUI/Examples/Scripts/Other/SpinWithMouse.cs
+Assets/NGUI/Examples/Scripts/Other/Tutorial5.cs
+Assets/NGUI/Examples/Scripts/Other/UISliderColors.cs
+Assets/NGUI/Examples/Scripts/Other/WindowAutoYaw.cs
+Assets/NGUI/Examples/Scripts/Other/WindowDragTilt.cs
+Assets/NGUI/Scripts/Interaction/LanguageSelection.cs
+Assets/NGUI/Scripts/Interaction/TypewriterEffect.cs
+Assets/NGUI/Scripts/Interaction/UIButton.cs
+Assets/NGUI/Scripts/Interaction/UIButtonActivate.cs
+Assets/NGUI/Scripts/Interaction/UIButtonColor.cs
+Assets/NGUI/Scripts/Interaction/UIButtonKeys.cs
+Assets/NGUI/Scripts/Interaction/UIButtonMessage.cs
+Assets/NGUI/Scripts/Interaction/UIButtonOffset.cs
+Assets/NGUI/Scripts/Interaction/UIButtonRotation.cs
+Assets/NGUI/Scripts/Interaction/UIButtonScale.cs
+Assets/NGUI/Scripts/Interaction/UICenterOnChild.cs
+Assets/NGUI/Scripts/Interaction/UICenterOnClick.cs
+Assets/NGUI/Scripts/Interaction/UIDragCamera.cs
+Assets/NGUI/Scripts/Interaction/UIDragDropContainer.cs
+Assets/NGUI/Scripts/Interaction/UIDragDropItem.cs
+Assets/NGUI/Scripts/Interaction/UIDragDropRoot.cs
+Assets/NGUI/Scripts/Interaction/UIDragObject.cs
+Assets/NGUI/Scripts/Interaction/UIDragResize.cs
+Assets/NGUI/Scripts/Interaction/UIDragScrollView.cs
+Assets/NGUI/Scripts/Interaction/UIDraggableCamera.cs
+Assets/NGUI/Scripts/Interaction/UIEventTrigger.cs
+Assets/NGUI/Scripts/Interaction/UIForwardEvents.cs
+Assets/NGUI/Scripts/Interaction/UIGrid.cs
+Assets/NGUI/Scripts/Interaction/UIImageButton.cs
+Assets/NGUI/Scripts/Interaction/UIKeyBinding.cs
+Assets/NGUI/Scripts/Interaction/UIKeyNavigation.cs
+Assets/NGUI/Scripts/Interaction/UIPlayAnimation.cs
+Assets/NGUI/Scripts/Interaction/UIPlaySound.cs
+Assets/NGUI/Scripts/Interaction/UIPlayTween.cs
+Assets/NGUI/Scripts/Interaction/UIPopupList.cs
+Assets/NGUI/Scripts/Interaction/UIProgressBar.cs
+Assets/NGUI/Scripts/Interaction/UISavedOption.cs
+Assets/NGUI/Scripts/Interaction/UIScrollBar.cs
+Assets/NGUI/Scripts/Interaction/UIScrollView.cs
+Assets/NGUI/Scripts/Interaction/UISlider.cs
+Assets/NGUI/Scripts/Interaction/UISoundVolume.cs
+Assets/NGUI/Scripts/Interaction/UITable.cs
+Assets/NGUI/Scripts/Interaction/UIToggle.cs
+Assets/NGUI/Scripts/Interaction/UIToggledComponents.cs
+Assets/NGUI/Scripts/Interaction/UIToggledObjects.cs
+Assets/NGUI/Scripts/Interaction/UIWidgetContainer.cs
+Assets/NGUI/Scripts/Interaction/UIWrapContent.cs
+Assets/NGUI/Scripts/Internal/ActiveAnimation.cs
+Assets/NGUI/Scripts/Internal/AnimationOrTween.cs
+Assets/NGUI/Scripts/Internal/BMFont.cs
+Assets/NGUI/Scripts/Internal/BMGlyph.cs
+Assets/NGUI/Scripts/Internal/BMSymbol.cs
+Assets/NGUI/Scripts/Internal/BetterList.cs
+Assets/NGUI/Scripts/Internal/ByteReader.cs
+Assets/NGUI/Scripts/Internal/EventDelegate.cs
+Assets/NGUI/Scripts/Internal/Localization.cs
+Assets/NGUI/Scripts/Internal/NGUIDebug.cs
+Assets/NGUI/Scripts/Internal/NGUIMath.cs
+Assets/NGUI/Scripts/Internal/NGUIText.cs
+Assets/NGUI/Scripts/Internal/NGUITools.cs
+Assets/NGUI/Scripts/Internal/PropertyBinding.cs
+Assets/NGUI/Scripts/Internal/PropertyReference.cs
+Assets/NGUI/Scripts/Internal/RealTime.cs
+Assets/NGUI/Scripts/Internal/SpringPanel.cs
+Assets/NGUI/Scripts/Internal/UIBasicSprite.cs
+Assets/NGUI/Scripts/Internal/UIDrawCall.cs
+Assets/NGUI/Scripts/Internal/UIEventListener.cs
+Assets/NGUI/Scripts/Internal/UIGeometry.cs
+Assets/NGUI/Scripts/Internal/UIRect.cs
+Assets/NGUI/Scripts/Internal/UISnapshotPoint.cs
+Assets/NGUI/Scripts/Internal/UIWidget.cs
+Assets/NGUI/Scripts/Tweening/AnimatedAlpha.cs
+Assets/NGUI/Scripts/Tweening/AnimatedColor.cs
+Assets/NGUI/Scripts/Tweening/AnimatedWidget.cs
+Assets/NGUI/Scripts/Tweening/SpringPosition.cs
+Assets/NGUI/Scripts/Tweening/TweenAlpha.cs
+Assets/NGUI/Scripts/Tweening/TweenColor.cs
+Assets/NGUI/Scripts/Tweening/TweenFOV.cs
+Assets/NGUI/Scripts/Tweening/TweenHeight.cs
+Assets/NGUI/Scripts/Tweening/TweenOrthoSize.cs
+Assets/NGUI/Scripts/Tweening/TweenPosition.cs
+Assets/NGUI/Scripts/Tweening/TweenRotation.cs
+Assets/NGUI/Scripts/Tweening/TweenScale.cs
+Assets/NGUI/Scripts/Tweening/TweenTransform.cs
+Assets/NGUI/Scripts/Tweening/TweenVolume.cs
+Assets/NGUI/Scripts/Tweening/TweenWidth.cs
+Assets/NGUI/Scripts/Tweening/UITweener.cs
+Assets/NGUI/Scripts/UI/UI2DSprite.cs
+Assets/NGUI/Scripts/UI/UI2DSpriteAnimation.cs
+Assets/NGUI/Scripts/UI/UIAnchor.cs
+Assets/NGUI/Scripts/UI/UIAtlas.cs
+Assets/NGUI/Scripts/UI/UICamera.cs
+Assets/NGUI/Scripts/UI/UIFont.cs
+Assets/NGUI/Scripts/UI/UIInput.cs
+Assets/NGUI/Scripts/UI/UIInputOnGUI.cs
+Assets/NGUI/Scripts/UI/UILabel.cs
+Assets/NGUI/Scripts/UI/UILocalize.cs
+Assets/NGUI/Scripts/UI/UIOrthoCamera.cs
+Assets/NGUI/Scripts/UI/UIPanel.cs
+Assets/NGUI/Scripts/UI/UIRoot.cs
+Assets/NGUI/Scripts/UI/UISprite.cs
+Assets/NGUI/Scripts/UI/UISpriteAnimation.cs
+Assets/NGUI/Scripts/UI/UISpriteData.cs
+Assets/NGUI/Scripts/UI/UIStretch.cs
+Assets/NGUI/Scripts/UI/UITextList.cs
+Assets/NGUI/Scripts/UI/UITexture.cs
+Assets/NGUI/Scripts/UI/UITooltip.cs
+Assets/NGUI/Scripts/UI/UIViewport.cs
+Assets/Script/Bmob/GameUser.cs
+Assets/Script/Bmob/MyGameTable.cs
+Assets/Script/Bmob/TestBmob.cs
+Assets/Script/Bmob/TestWeibo.cs
+Assets/Script/ButtonCheckMovement.cs
+Assets/Script/GameControler.cs
+Assets/Script/NetState/TestNetState.cs
+Assets/Script/Test.cs
+Assets/Script/UIBtnEven.cs
+Assets/Script/back.cs
+Assets/Script/backToMenue.cs
+Assets/Script/gameControllor.cs
+Assets/Script/inAndOut.cs
+Assets/Script/playMovie.cs
+Assets/Script/replay.cs
+Assets/iTween/Sample/MoveSample.cs
+Assets/iTween/Sample/RotateSample.cs
+Assets/iTween/Sample/SampleInfo.cs
+Assets/iTween/iTween.cs
+-r:E:/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll
+-r:E:/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
+Compilation succeeded - 3 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/Script/Bmob/TestBmob.cs(189,29): warning CS0219: The variable `mg' is assigned but its value is never used
+Assets/Script/GameControler.cs(23,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
+Assets/Script/UIBtnEven.cs(15,24): warning CS0414: The private field `UIBtnEven.BtnPanel' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Assets/Script/Bmob/TestBmob.cs(189,29): warning CS0219: The variable `mg' is assigned but its value is never used
+ 
+(Filename: Assets/Script/Bmob/TestBmob.cs Line: 189)
+
+Assets/Script/GameControler.cs(23,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
+ 
+(Filename: Assets/Script/GameControler.cs Line: 23)
+
+Assets/Script/UIBtnEven.cs(15,24): warning CS0414: The private field `UIBtnEven.BtnPanel' is assigned but its value is never used
+ 
+(Filename: Assets/Script/UIBtnEven.cs Line: 15)
+
+
+Packing sprites:
+- Skipping packing - Sprite Packer is off.
+System memory in use before: 70.0 MB.
+Unloading 111 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 53.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 78.925697 ms (FindLiveObjects: 0.151822 ms CreateObjectMapping: 0.051975 ms MarkObjects: 3.967211 ms  DeleteObjects: 0.040349 ms)
+
+WARNING: Shader Unsupported: 'VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+System memory in use before: 67.0 MB.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 18.9 MB.
+
+Unloading 825 unused Assets to reduce memory usage. Loaded Objects now: 786.
+Total: 33.637524 ms (FindLiveObjects: 0.324844 ms CreateObjectMapping: 0.086169 ms MarkObjects: 3.536364 ms  DeleteObjects: 15.427742 ms)
+
+System memory in use before: 20.9 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 18.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 755.
+Total: 5.288476 ms (FindLiveObjects: 0.108737 ms CreateObjectMapping: 0.047188 ms MarkObjects: 3.444040 ms  DeleteObjects: 0.175758 ms)
+
+System memory in use before: 20.3 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 19.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 806.
+Total: 11.630133 ms (FindLiveObjects: 0.072491 ms CreateObjectMapping: 0.030090 ms MarkObjects: 3.335302 ms  DeleteObjects: 0.013677 ms)
+
+System memory in use before: 33.7 MB.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 32.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 885.
+Total: 7.428349 ms (FindLiveObjects: 0.168235 ms CreateObjectMapping: 0.051975 ms MarkObjects: 3.543203 ms  DeleteObjects: 0.107369 ms)
+
+
+
+Mono dependencies included in the build
+Dependency assembly - Bmob-Unity.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - Assembly-CSharp-firstpass.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - Assembly-UnityScript-firstpass.dll
+
+DisplayProgressbar: Fetching assembly references
+Game scripts or other custom code contains OnMouse_ event handlers. Presence of such handlers might impact performance on handheld devices.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at C:\buildslave\unity\build\artifacts\EditorGenerated\BuildPipeline.cs:164)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\artifacts\EditorGenerated\BuildPipeline.cs:108)
+CommandBuild:Build() (at Assets\Editor\CommandBuild.cs:124)
+
+[C:/buildslave/unity/build/Editor/Src/Utility/BuildPlayerUtility.cpp line 2853] 
+(Filename: Assets/Editor/CommandBuild.cs Line: 124)
+
+System memory in use before: 34.8 MB.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 17.2 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 770.
+Total: 15.181543 ms (FindLiveObjects: 0.070440 ms CreateObjectMapping: 0.033510 ms MarkObjects: 2.848377 ms  DeleteObjects: 2.948908 ms)
+
+System memory in use before: 17.2 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 17.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 4.290689 ms (FindLiveObjects: 0.166867 ms CreateObjectMapping: 0.033510 ms MarkObjects: 2.985838 ms  DeleteObjects: 0.011626 ms)
+
+DisplayProgressbar: Building Player
+System memory in use before: 70.5 MB.
+Unloading 105 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 56.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1743.
+Total: 64.469078 ms (FindLiveObjects: 0.125150 ms CreateObjectMapping: 0.075227 ms MarkObjects: 4.105356 ms  DeleteObjects: 0.032142 ms)
+
+WARNING: Shader Unsupported: 'Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'NGUI/Examples/Orc Skin' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'NGUI/Examples/Orc Armor' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Internal-PrePassCollectShadows' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Internal-PrePassCollectShadows' - Setting to default shader.
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse Fast' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Bumped Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Diffuse Detail' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/Bumped Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/VertexLit' - Pass 'BASE' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Bumped Unlit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Bumped Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Bumped VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Transparent/Cutout/VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Transparent/Cutout/Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Transparent/Cutout/Bumped Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Transparent/Cutout/Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Transparent/Cutout/Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Parallax Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Parallax Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/Parallax Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Self-Illumin/Parallax Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Parallax Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Reflective/Parallax Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Decal' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/Vertexlit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/WavingDoublePass' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Terrain/Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Legacy Shaders/Lightmapped/VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Legacy Shaders/Lightmapped/Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Legacy Shaders/Lightmapped/Bumped Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Legacy Shaders/Lightmapped/Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Legacy Shaders/Lightmapped/Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Bark Optimized' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Tree Creator Bark' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Tree Creator Bark' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Tree Creator Leaves' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Tree Creator Leaves' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Fast Optimized' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Fast Optimized' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Tree Creator Leaves Fast' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Bumped Specular AddPass' - Pass 'FORWARD' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Terrain/Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Nature/Terrain/Bumped Specular' - Pass 'FORWARD' shader state not supported
+WARNING: Shader Unsupported: 'Mobile/VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Mobile/Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Mobile/Bumped Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Mobile/Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Mobile/Bumped Specular (1 Directional Light)' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Mobile/VertexLit (Only Directional Lights)' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'UI/Lit/Refraction Detail (Pro Only)' - Pass 'FORWARD' shader state not supported
+System memory in use before: 159.0 MB.
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 23.4 MB.
+
+Unloading 936 unused Assets to reduce memory usage. Loaded Objects now: 783.
+Total: 127.829567 ms (FindLiveObjects: 0.124466 ms CreateObjectMapping: 0.073859 ms MarkObjects: 3.348980 ms  DeleteObjects: 100.963181 ms)
+
+WARNING: Shader Unsupported: 'Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+WARNING: Shader Unsupported: 'Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
+System memory in use before: 84.4 MB.
+Unloading 131 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 24.2 MB.
+
+Unloading 795 unused Assets to reduce memory usage. Loaded Objects now: 788.
+Total: 79.541191 ms (FindLiveObjects: 0.330999 ms CreateObjectMapping: 0.123783 ms MarkObjects: 4.897294 ms  DeleteObjects: 12.809833 ms)
+
+System memory in use before: 24.2 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 24.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 787.
+Total: 4.679135 ms (FindLiveObjects: 0.140196 ms CreateObjectMapping: 0.033510 ms MarkObjects: 2.922236 ms  DeleteObjects: 0.012309 ms)
+
+System memory in use before: 24.1 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 24.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 786.
+Total: 4.798131 ms (FindLiveObjects: 0.139512 ms CreateObjectMapping: 0.032826 ms MarkObjects: 3.374284 ms  DeleteObjects: 0.015045 ms)
+
+System memory in use before: 24.8 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 24.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 7.950836 ms (FindLiveObjects: 0.177125 ms CreateObjectMapping: 0.075227 ms MarkObjects: 3.306579 ms  DeleteObjects: 0.038981 ms)
+
+System memory in use before: 25.7 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 24.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 784.
+Total: 5.432775 ms (FindLiveObjects: 0.136776 ms CreateObjectMapping: 0.047188 ms MarkObjects: 2.976947 ms  DeleteObjects: 0.350148 ms)
+
+
+Textures      33.2 mb	 68.2% 
+Meshes        5.3 kb	 0.0% 
+Animations    6.2 kb	 0.0% 
+Sounds        660.7 kb	 1.3% 
+Shaders       419.4 kb	 0.8% 
+Other Assets  9.4 mb	 19.3% 
+Levels        44.0 kb	 0.1% 
+Scripts       969.9 kb	 1.9% 
+Included DLLs 3.9 mb	 8.1% 
+File headers  141.8 kb	 0.3% 
+Complete size 48.7 mb	 100.0% 
+
+Used Assets, sorted by uncompressed size:
+ 21.3 mb	 43.8% Assets/Texture/Maker/Button.png
+ 9.3 mb	 19.1% Assets/Texture/Font/simhei.ttf
+ 2.7 mb	 5.5% Assets/NGUI/Examples/Atlases/Wooden/Wooden Atlas.png
+ 2.0 mb	 4.1% Assets/Number/bg1.png
+ 2.0 mb	 4.1% Assets/Number/bg2.png
+ 1.4 mb	 2.8% Assets/Picture/help.png
+ 1.3 mb	 2.7% Assets/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.psd
+ 1.3 mb	 2.7% Assets/NGUI/Examples/Atlases/SciFi/SciFi Atlas.psd
+ 351.6 kb	 0.7% Assets/Music/right.wav
+ 348.3 kb	 0.7% Resources/unity_builtin_extra
+ 211.5 kb	 0.4% Assets/Music/bgmusic.mp3
+ 170.7 kb	 0.3% Assets/Texture/Wood.jpg
+ 135.1 kb	 0.3% Assets/Texture/gaox.png
+ 76.4 kb	 0.2% Assets/Music/Button_Tap.wav
+ 43.0 kb	 0.1% Assets/Texture/shar.jpg
+ 42.7 kb	 0.1% Assets/Standard Assets/Particles/Spark/star3.png
+ 29.4 kb	 0.1% Assets/Picture/myy.png
+ 20.0 kb	 0.0% Assets/PinYin/e.png
+ 19.9 kb	 0.0% Assets/PinYin/c.png
+ 19.9 kb	 0.0% Assets/PinYin/j.png
+ 19.9 kb	 0.0% Assets/PinYin/y.png
+ 19.9 kb	 0.0% Assets/PinYin/i.png
+ 19.9 kb	 0.0% Assets/PinYin/f.png
+ 19.9 kb	 0.0% Assets/PinYin/ü.png
+ 19.9 kb	 0.0% Assets/PinYin/t.png
+ 19.9 kb	 0.0% Assets/PinYin/h.png
+ 19.8 kb	 0.0% Assets/PinYin/w.png
+ 19.8 kb	 0.0% Assets/PinYin/s.png
+ 19.8 kb	 0.0% Assets/PinYin/r.png
+ 19.8 kb	 0.0% Assets/PinYin/o.png
+ 19.8 kb	 0.0% Assets/PinYin/l.png
+ 19.8 kb	 0.0% Assets/PinYin/g.png
+ 19.8 kb	 0.0% Assets/PinYin/b.png
+ 19.8 kb	 0.0% Assets/PinYin/a.png
+ 19.8 kb	 0.0% Assets/PinYin/u.png
+ 19.8 kb	 0.0% Assets/PinYin/q.png
+ 19.8 kb	 0.0% Assets/PinYin/p.png
+ 19.8 kb	 0.0% Assets/PinYin/k.png
+ 19.8 kb	 0.0% Assets/PinYin/d.png
+ 19.8 kb	 0.0% Assets/PinYin/z.png
+ 19.8 kb	 0.0% Assets/PinYin/x.png
+ 19.8 kb	 0.0% Assets/PinYin/n.png
+ 19.8 kb	 0.0% Assets/PinYin/m.png
+ 19.6 kb	 0.0% Assets/Number/9.png
+ 19.6 kb	 0.0% Assets/Number/8.png
+ 19.6 kb	 0.0% Assets/Number/7.png
+ 19.6 kb	 0.0% Assets/Number/6.png
+ 19.6 kb	 0.0% Assets/Number/5.png
+ 19.6 kb	 0.0% Assets/Number/4.png
+ 19.6 kb	 0.0% Assets/Number/3.png
+ 19.6 kb	 0.0% Assets/Number/2.png
+ 19.6 kb	 0.0% Assets/Number/10.png
+ 19.6 kb	 0.0% Assets/Number/1.png
+ 13.6 kb	 0.0% Assets/Music/button.mp3
+ 12.8 kb	 0.0% Assets/Picture/6.png
+ 12.8 kb	 0.0% Assets/Picture/4.png
+ 12.8 kb	 0.0% Assets/Picture/3.png
+ 12.8 kb	 0.0% Assets/Picture/5.png
+ 12.8 kb	 0.0% Assets/Picture/2.png
+ 12.8 kb	 0.0% Assets/Picture/1.png
+ 10.5 kb	 0.0% Assets/NGUI/Examples/Atlases/Wooden/Arimo20.prefab
+ 7.5 kb	 0.0% Assets/Music/cut.mp3
+ 6.9 kb	 0.0% Assets/NGUI/Examples/Atlases/SciFi/SciFi Font - Header.prefab
+ 6.8 kb	 0.0% Assets/Plugins/DemoSkin.guiskin
+ 5.5 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Packed 3.shader
+ 5.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Colored 3.shader
+ 5.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 3.shader
+ 4.8 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Text 3.shader
+ 4.5 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Packed 2.shader
+ 4.2 kb	 0.0% Assets/Animation/uiAnimation.anim
+ 4.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Colored 2.shader
+ 4.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 2.shader
+ 4.1 kb	 0.0% Assets/Prefab/Frame.fbx
+ 3.8 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Text 2.shader
+ 3.5 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Colored (Packed) (TextureClip).shader
+ 3.5 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Packed 1.shader
+ 3.4 kb	 0.0% E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll
+ 3.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Colored 1.shader
+ 3.1 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Premultiplied Colored 1.shader
+ 2.9 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Premultiplied Colored (TextureClip).shader
+ 2.9 kb	 0.0% Assets/Prefab/Death Particles.prefab
+ 2.8 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Text 1.shader
+ 2.7 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Colored (TextureClip).shader
+ 2.7 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Packed.shader
+ 2.6 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Text (TextureClip).shader
+ 2.5 kb	 0.0% Assets/NGUI/Examples/Atlases/Wooden/Wooden Atlas.prefab
+ 2.3 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Text.shader
+ 2.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Premultiplied Colored.shader
+ 2.2 kb	 0.0% Assets/NGUI/Resources/Shaders/Unlit - Transparent Colored.shader
+ 2.0 kb	 0.0% Assets/Animation/btnAnimation.anim
+ 1.3 kb	 0.0% Assets/NGUI/Examples/Resources/Localization.txt
+ 1.2 kb	 0.0% Assets/Prefab/Picture.fbx
+ 1.0 kb	 0.0% Assets/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/ü.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/z.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/y.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/x.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/w.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/u.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/t.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/s.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/r.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/q.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/p.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/o.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/n.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/m.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/l.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/k.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/j.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/i.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/h.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/g.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/f.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/e.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/d.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/c.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/b.prefab
+ 1.0 kb	 0.0% Assets/Prefab/PinYin_Prb/a.prefab
+ 1.0 kb	 0.0% Assets/Prefab/Pic_Prefab/6.prefab
+ 1.0 kb	 0.0% Assets/Prefab/Pic_Prefab/5.prefab
+ 1.0 kb	 0.0% Assets/Prefab/Pic_Prefab/4.prefab
+ 1.0 kb	 0.0% Assets/Prefab/Pic_Prefab/3.prefab
+ 1.0 kb	 0.0% Assets/Prefab/Pic_Prefab/2.prefab
+ 1.0 kb	 0.0% Assets/Prefab/Pic_Prefab/1.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 1.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 9.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 8.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 7.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 6.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 5.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 4.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 3.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 2.prefab
+ 0.8 kb	 0.0% Assets/Prefab/Check/Frame 10.prefab
+ 0.7 kb	 0.0% Assets/NGUI/Examples/Atlases/SciFi/SciFi Atlas.prefab
+ 0.6 kb	 0.0% Assets/Standard Assets/Particles/Spark/Star.prefab
+ 0.5 kb	 0.0% Assets/Prefab/help.prefab
+ 0.4 kb	 0.0% Assets/Texture/Maker/Button.prefab
+ 0.3 kb	 0.0% Assets/NGUI/Examples/Atlases/SciFi/SciFi Atlas.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-1.mat
+ 0.2 kb	 0.0% Assets/Prefab/gaoxiao.prefab
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-9.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-8.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-7.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-6.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-5.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-4.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-3.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-2.mat
+ 0.2 kb	 0.0% Assets/Texture/Materials/Picture-10.mat
+ 0.2 kb	 0.0% Assets/Prefab/Materials/Picture-None.mat
+ 0.2 kb	 0.0% Assets/NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.mat
+ 0.1 kb	 0.0% Assets/Standard Assets/Particles/Spark/star3.mat
+ 0.1 kb	 0.0% Assets/Plugins/Unity/Bmob-Unity.dll
+ 0.1 kb	 0.0% Assets/Standard Assets/Particles/Legacy Particles/TimedObjectDestructor.js
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcCurveAnimation.cs
+ 0.1 kb	 0.0% Assets/Texture/Materials/frame-None.mat
+ 0.1 kb	 0.0% Assets/Texture/Materials/backdroup.mat
+ 0.1 kb	 0.0% Assets/Prefab/Materials/Frame-None.mat
+ 0.1 kb	 0.0% Assets/Plugins/Android/AndroidUtils.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcInfoCurve.cs
+ 0.1 kb	 0.0% Assets/Plugins/ShareSDK.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Texture.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Prefab.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerImageEffectBase.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerGrayscaleEffect.cs
+ 0.1 kb	 0.0% Assets/Plugins/iOS/ShareSDKForiOS.cs
+ 0.1 kb	 0.0% Assets/Script/ButtonCheckMovement.cs
+ 0.1 kb	 0.0% Assets/Script/Bmob/TestWeibo.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UISpriteAnimation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UI2DSpriteAnimation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/PropertyReference.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIWidgetContainer.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIToggledComponents.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDraggableCamera.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragDropContainer.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/LanguageSelection.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/SetColorOnSelection.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_Transform.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_GameObject.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmInfoBackground.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerBackground.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSingleMouse.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSingleMain.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteAnimation.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcRepeatTimerTool.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcRandomTimerTool.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectInitBackup.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectBehaviour.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectAniBehaviour.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDisableDelayActive.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/EffectScriptSample.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Atlases/Wooden/Wooden Atlas.mat
+ 0.1 kb	 0.0% Assets/Script/gameControllor.cs
+ 0.1 kb	 0.0% Assets/Script/GameControler.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIOrthoCamera.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenTransform.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenRotation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenPosition.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenOrthoSize.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/SpringPosition.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/AnimatedWidget.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/AnimatedColor.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/AnimatedAlpha.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UISnapshotPoint.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UIEventListener.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UIBasicSprite.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/PropertyBinding.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/EventDelegate.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/AnimationOrTween.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/ActiveAnimation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIWrapContent.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIToggledObjects.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UISoundVolume.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UISavedOption.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIProgressBar.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIPlayAnimation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIKeyNavigation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIImageButton.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIForwardEvents.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIEventTrigger.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragScrollView.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragDropRoot.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragDropItem.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UICenterOnClick.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UICenterOnChild.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonScale.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonRotation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonOffset.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonMessage.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonColor.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonActivate.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/TypewriterEffect.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/WindowDragTilt.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/WindowAutoYaw.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/UISliderColors.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/SpinWithMouse.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/OpenURLOnClick.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/EnvelopContent.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/DownloadTexture.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMakerReplayScene/FxmReplayDemo.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmSpritePopup.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_Object.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopupManager.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmInfoIndexing.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerWireframe.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerTooltip.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerSimulate.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerQuickMenu.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerPicking.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerOption.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerLayout.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerHierarchy.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerEffect.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerControls.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerClipboard.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerCapture.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSimulate.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSetting.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestControls.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcTickTimerTool.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcDrawFpsText.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcDrawFpsRect.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcUvAnimation.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcTrailTexture.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcTilingTexture.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteTexture.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteFactory.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleSystem.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleSpiral.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleEmit.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDetachParent.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDelayActive.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcCurveAnimation.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcChangeAlpha.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAutoDestruct.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAutoDeactive.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAttachSound.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAttachPrefab.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsSharedManager.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsRenderManager.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsEffectManager.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NgInterpolate.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcTransformTool.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDetachObject.cs
+ 0.1 kb	 0.0% Assets/Texture/Maker/Button.mat
+ 0.1 kb	 0.0% Assets/Plugins/MiniJSON.cs
+ 0.1 kb	 0.0% Assets/iTween/Sample/SampleInfo.cs
+ 0.1 kb	 0.0% Assets/iTween/Sample/RotateSample.cs
+ 0.1 kb	 0.0% Assets/iTween/Sample/MoveSample.cs
+ 0.1 kb	 0.0% Assets/Script/playMovie.cs
+ 0.1 kb	 0.0% Assets/Script/backToMenue.cs
+ 0.1 kb	 0.0% Assets/Script/UIBtnEven.cs
+ 0.1 kb	 0.0% Assets/Script/NetState/TestNetState.cs
+ 0.1 kb	 0.0% Assets/Script/Bmob/MyGameTable.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIViewport.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UITooltip.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UITexture.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UITextList.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIStretch.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UISpriteData.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UILocalize.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIInputOnGUI.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UI2DSprite.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/UITweener.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenWidth.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenVolume.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenScale.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenHeight.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenColor.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenAlpha.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UIGeometry.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UIDrawCall.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/SpringPanel.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/NGUITools.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/NGUIDebug.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/Localization.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/ByteReader.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/BetterList.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIScrollView.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIScrollBar.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIPopupList.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIPlayTween.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIPlaySound.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIKeyBinding.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragResize.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragObject.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIDragCamera.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButtonKeys.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/Tutorial5.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/PanWithMouse.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/LookAtTarget.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/LagRotation.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/LagPosition.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/ChatInput.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmMenuPopup.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerMouse.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerMain.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerGizmo.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerAsset.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestMouse.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestMain.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcSafeTool.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgTexture.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgSerialized.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgMaterial.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgGUIDraw.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAssambly.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAnimation.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcRotation.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDuplicator.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcBillboard.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAddForce.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcTimerTool.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDontActive.cs
+ 0.1 kb	 0.0% Assets/Plugins/Demo.cs
+ 0.1 kb	 0.0% Assets/iTween/iTween.cs
+ 0.1 kb	 0.0% Assets/Script/replay.cs
+ 0.1 kb	 0.0% Assets/Script/inAndOut.cs
+ 0.1 kb	 0.0% Assets/Script/Bmob/TestBmob.cs
+ 0.1 kb	 0.0% Assets/Script/Bmob/GameUser.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UISprite.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIRoot.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIPanel.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UILabel.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIInput.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIFont.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UICamera.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIAtlas.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIAnchor.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenFOV.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UIWidget.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/UIRect.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/RealTime.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/NGUIText.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/NGUIMath.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/BMSymbol.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/BMGlyph.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Internal/BMFont.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIToggle.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UITable.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UISlider.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIGrid.cs
+ 0.1 kb	 0.0% Assets/NGUI/Scripts/Interaction/UIButton.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgUtil.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgString.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgObject.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgLayout.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgFile.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgEnum.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAtlas.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAsset.cs
+ 0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NgMath.cs
+ 0.1 kb	 0.0% Assets/Script/back.cs
+ 0.1 kb	 0.0% Assets/Script/Test.cs
+ 0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/Spin.cs
+Registering platform support modules:
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Registered platform support modules in: 0.2014285s.
+DisplayProgressbar: Android SDK Detection
+AndroidSDKTools:
+
+	root          : E:/Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows/android-sdk-windows
+	tools         : E:/Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows/android-sdk-windows\tools
+	platform-tools: E:/Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows/android-sdk-windows\platform-tools
+	build-tools   : E:\Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows\android-sdk-windows\build-tools\21.1.2
+
+	adb      : E:/Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows/android-sdk-windows\platform-tools\adb.exe
+	aapt     : E:\Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows\android-sdk-windows\build-tools\21.1.2\aapt.exe
+	zipalign : E:\Unity5.0_安卓开发环境AndroidSDK_android-sdk-windows\android-sdk-windows\build-tools\21.1.2\zipalign.exe
+
+AndroidJavaTools:
+	java     : C:/Program Files/Java/jdk1.7.0_51\bin\java.exe
+
+DisplayProgressbar: Android build
+Unable to find unity activity in manifest. You need to make sure orientation attribute is set to landscape manually.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEditor.Android.PostProcessAndroidPlayer:PatchManifest(String, String, Boolean, Single)
+UnityEditor.Android.PostProcessAndroidPlayer:PostProcessInternal(BuildTarget, String, String, String, String, String, String, BuildOptions)
+UnityEditor.Android.PostProcessAndroidPlayer:PostProcess(BuildTarget, String, String, String, String, String, String, BuildOptions)
+UnityEditor.Android.AndroidBuildPostprocessor:PostProcess(BuildPostProcessArgs)
+UnityEditor.PostprocessBuildPlayer:Postprocess(BuildTarget, String, String, String, Int32, Int32, String, String, BuildOptions, RuntimeClassRegistry) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline\PostprocessBuildPlayer.cs:338)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at C:\buildslave\unity\build\artifacts\EditorGenerated\BuildPipeline.cs:164)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\artifacts\EditorGenerated\BuildPipeline.cs:108)
+CommandBuild:Build() (at Assets\Editor\CommandBuild.cs:124)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 124)
+
+DisplayProgressbar: Fetching assembly references
+DisplayProgressbar: Creating staging area
+DisplayProgressbar: Rebuilding resources
+DisplayProgressbar: Compiling resources
+DisplayProgressbar: Building DEX
+DisplayProgressbar: Creating streaming package
+DisplayProgressbar: Creating asset package
+DisplayProgressbar: Creating APK package
+DisplayProgressbar: Aligning APK package
+DisplayProgressbar: Copying to output folder
+DisplayProgressbar: Building Player
+System memory in use before: 25.8 MB.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 23.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 784.
+Total: 15.898937 ms (FindLiveObjects: 0.193539 ms CreateObjectMapping: 0.051291 ms MarkObjects: 4.117666 ms  DeleteObjects: 1.362981 ms)
+
+System memory in use before: 23.5 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 23.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 784.
+Total: 4.364548 ms (FindLiveObjects: 0.156609 ms CreateObjectMapping: 0.046504 ms MarkObjects: 2.942753 ms  DeleteObjects: 0.011626 ms)
+
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 13
+- starting compile Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll, for buildtarget 13
+System memory in use before: 23.5 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 23.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 784.
+Total: 4.472602 ms (FindLiveObjects: 0.162764 ms CreateObjectMapping: 0.045820 ms MarkObjects: 3.021400 ms  DeleteObjects: 0.012993 ms)
+
+
+*** Completed 'Build.Player.AndroidPlayer' in 80 seconds
+
+Batchmode quit successfully invoked - shutting down!
+System memory in use before: 23.5 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 23.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 778.
+Total: 4.639469 ms (FindLiveObjects: 0.076595 ms CreateObjectMapping: 0.032826 ms MarkObjects: 3.252552 ms  DeleteObjects: 0.013677 ms)
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.126019 seconds
+
+----- Total AssetImport time: 0.059067s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Cleanup mono
+Exiting batchmode successfully now!
