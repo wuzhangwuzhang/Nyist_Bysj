@@ -1,5 +1,5 @@
 
-LICENSE SYSTEM [201654 20:39:50] Next license update check is after 2026-04-30T00:00:00
+LICENSE SYSTEM [2016514 0:6:56] Next license update check is after 2026-04-30T00:00:00
 
 Built from 'release/4.6/patch-release' branch; Version is '4.6.3p3 (088b951bfc62) revision 560021'; Using compiler version '160040219'
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0
@@ -14,7 +14,7 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
 E:\Unity\Editor\Unity.exe
 -batchmode
 -projectPath
-D:\Unity\Nyist-Bysj\SmartBaby\
+G:\Project\SmartBaby\
 -executeMethod
 CommandBuild.Build
 -debug
@@ -22,11 +22,11 @@ CommandBuild.Build
 -quit
 -logFile
 ./BuildApk.log
-Successfully changed project path to: D:\Unity\Nyist-Bysj\SmartBaby\
-D:/Unity/Nyist-Bysj/SmartBaby
-Loading GUID <-> Path mappings ... 0.009366 seconds.
-Loading Asset Database ...  0.023625 seconds
-AssetDatabase consistency checks ...  0.040572 seconds
+Successfully changed project path to: G:\Project\SmartBaby\
+G:/Project/SmartBaby
+Loading GUID <-> Path mappings ... 0.012818 seconds.
+Loading Asset Database ...  0.027928 seconds
+AssetDatabase consistency checks ...  0.064576 seconds
 Initialize engine version: 4.6.3p3 (088b951bfc62)
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -56,38 +56,38 @@ Setting WP8Player v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngi
 Setting GUISystem v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3
 Registering custom dll's ...
 Non platform assembly: data-14EA0020 (this message is harmless)
-Non platform assembly: data-1483D0D8 (this message is harmless)
-Non platform assembly: data-1483D0D8 (this message is harmless)
-Non platform assembly: data-1483D0D8 (this message is harmless)
-Non platform assembly: data-1351B7C0 (this message is harmless)
+Non platform assembly: data-1487C2E8 (this message is harmless)
+Non platform assembly: data-1487C2E8 (this message is harmless)
+Non platform assembly: data-1487C2E8 (this message is harmless)
+Non platform assembly: data-14859948 (this message is harmless)
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\androidplayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\iossupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\wp8support/UnityEditor.WP8.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\metrosupport/UnityEditor.Metro.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer/UnityEditor.BB10.Extensions.dll
-Registered in 0.056554 seconds.
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Registered in 0.122585 seconds.
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll into Unity Child Domain
 Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll into Unity Child Domain
 Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
 Platform assembly: E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
 Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\androidplayer\UnityEditor.Android.Extensions.dll (this message is harmless)
@@ -105,25 +105,25 @@ Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this 
 Platform assembly: E:\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
 Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.468 seconds
-System memory in use before: 30.4 MB.
+- Completed reload, in  3.205 seconds
+System memory in use before: 30.3 MB.
 Unloading 400 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 10.9 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 720.
-Total: 80.415199 ms (FindLiveObjects: 0.065652 ms CreateObjectMapping: 0.021200 ms MarkObjects: 1.458040 ms  DeleteObjects: 0.015045 ms)
+Total: 158.030289 ms (FindLiveObjects: 0.322795 ms CreateObjectMapping: 0.102583 ms MarkObjects: 2.388139 ms  DeleteObjects: 0.036246 ms)
 
-Validating Project structure ... 0.033272 seconds.
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.091668 seconds
+Validating Project structure ... 0.068247 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.178906 seconds
 
------ Total AssetImport time: 0.059464s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.116038s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-System memory in use before: 11.9 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 11.2 MB.
+System memory in use before: 66.6 MB.
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 51.5 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 721.
-Total: 6.231552 ms (FindLiveObjects: 0.130621 ms CreateObjectMapping: 0.020516 ms MarkObjects: 1.401278 ms  DeleteObjects: 0.008890 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 140.272446 ms (FindLiveObjects: 0.327582 ms CreateObjectMapping: 0.138829 ms MarkObjects: 5.666702 ms  DeleteObjects: 0.068388 ms)
 
 Build
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -141,9 +141,9 @@ CommandBuild:Build() (at Assets\Editor\CommandBuild.cs:98)
 (Filename: Assets/Editor/CommandBuild.cs Line: 68)
 
 Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 79.106927 ms] 
+ done. [Time: 160.808936 ms] 
 
------ Total AssetImport time: 0.186836s, AssetImport time: 0.132615s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.389392s, AssetImport time: 0.261767s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 DisplayProgressbar: Building Player
 building target 13
@@ -156,11 +156,11 @@ Native extension for build target not found
 
 -----Compiler Commandline Arguments:
 Filename: E:/Unity/Editor/Data/Mono\bin\mono.exe
-Arguments: E:/Unity/Editor/Data/Mono\lib/mono/unity\smcs.exe  @Temp/UnityTempFile-a41c75d200abfcd44a6eb7534e046d30
+Arguments: E:/Unity/Editor/Data/Mono\lib/mono/unity\smcs.exe  @Temp/UnityTempFile-9320a5baa8ecdc14aa4e2775695433ae
 MONO_PATH: E:/Unity/Editor/Data/Mono\lib\mono\unity
 MONO_CFG_DIR: E:/Unity/Editor/Data/Mono\etc
 index: 52
-Responsefile: Temp/UnityTempFile-a41c75d200abfcd44a6eb7534e046d30 Contents: 
+Responsefile: Temp/UnityTempFile-9320a5baa8ecdc14aa4e2775695433ae Contents: 
 -debug
 -target:library
 -nowarn:0169
@@ -434,21 +434,21 @@ Assets/NGUI/Scripts/UI/UITextList.cs
 Assets/NGUI/Scripts/UI/UITexture.cs
 Assets/NGUI/Scripts/UI/UITooltip.cs
 Assets/NGUI/Scripts/UI/UIViewport.cs
+Assets/Script/BackToMenue.cs
 Assets/Script/Bmob/GameUser.cs
 Assets/Script/Bmob/MyGameTable.cs
 Assets/Script/Bmob/TestBmob.cs
 Assets/Script/Bmob/TestWeibo.cs
 Assets/Script/ButtonCheckMovement.cs
 Assets/Script/GameControler.cs
+Assets/Script/GlobgameStateControllor.cs
+Assets/Script/HelpPanelController.cs
+Assets/Script/MenueController.cs
 Assets/Script/NetState/TestNetState.cs
+Assets/Script/PlayMovie.cs
+Assets/Script/Replay.cs
 Assets/Script/Test.cs
-Assets/Script/UIBtnEven.cs
 Assets/Script/back.cs
-Assets/Script/backToMenue.cs
-Assets/Script/gameControllor.cs
-Assets/Script/inAndOut.cs
-Assets/Script/playMovie.cs
-Assets/Script/replay.cs
 Assets/iTween/Sample/MoveSample.cs
 Assets/iTween/Sample/RotateSample.cs
 Assets/iTween/Sample/SampleInfo.cs
@@ -457,66 +457,71 @@ Assets/iTween/iTween.cs
 -r:E:/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll
 
 -----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
-Compilation succeeded - 3 warning(s)
+Compilation succeeded - 4 warning(s)
 -----CompilerOutput:-stderr----------
-Assets/Script/Bmob/TestBmob.cs(189,29): warning CS0219: The variable `mg' is assigned but its value is never used
-Assets/Script/GameControler.cs(23,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
-Assets/Script/UIBtnEven.cs(15,24): warning CS0414: The private field `UIBtnEven.BtnPanel' is assigned but its value is never used
+Assets/Script/Bmob/TestBmob.cs(312,21): warning CS0219: The variable `mg' is assigned but its value is never used
+Assets/Script/Bmob/TestBmob.cs(25,18): warning CS0414: The private field `TestBmob.canUpload' is assigned but its value is never used
+Assets/Script/GameControler.cs(40,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
+Assets/Script/MenueController.cs(46,24): warning CS0414: The private field `MenueController.BtnPanel' is assigned but its value is never used
 -----EndCompilerOutput---------------
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Assets/Script/Bmob/TestBmob.cs(189,29): warning CS0219: The variable `mg' is assigned but its value is never used
+Assets/Script/Bmob/TestBmob.cs(312,21): warning CS0219: The variable `mg' is assigned but its value is never used
  
-(Filename: Assets/Script/Bmob/TestBmob.cs Line: 189)
+(Filename: Assets/Script/Bmob/TestBmob.cs Line: 312)
 
-Assets/Script/GameControler.cs(23,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
+Assets/Script/Bmob/TestBmob.cs(25,18): warning CS0414: The private field `TestBmob.canUpload' is assigned but its value is never used
  
-(Filename: Assets/Script/GameControler.cs Line: 23)
+(Filename: Assets/Script/Bmob/TestBmob.cs Line: 25)
 
-Assets/Script/UIBtnEven.cs(15,24): warning CS0414: The private field `UIBtnEven.BtnPanel' is assigned but its value is never used
+Assets/Script/GameControler.cs(40,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
  
-(Filename: Assets/Script/UIBtnEven.cs Line: 15)
+(Filename: Assets/Script/GameControler.cs Line: 40)
+
+Assets/Script/MenueController.cs(46,24): warning CS0414: The private field `MenueController.BtnPanel' is assigned but its value is never used
+ 
+(Filename: Assets/Script/MenueController.cs Line: 46)
 
 
 Packing sprites:
 - Skipping packing - Sprite Packer is off.
-System memory in use before: 70.0 MB.
-Unloading 111 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 53.4 MB.
+System memory in use before: 53.8 MB.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 52.4 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1710.
-Total: 78.925697 ms (FindLiveObjects: 0.151822 ms CreateObjectMapping: 0.051975 ms MarkObjects: 3.967211 ms  DeleteObjects: 0.040349 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1808.
+Total: 23.339073 ms (FindLiveObjects: 0.324163 ms CreateObjectMapping: 0.161397 ms MarkObjects: 8.334552 ms  DeleteObjects: 0.036246 ms)
 
 WARNING: Shader Unsupported: 'VertexLit' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'Diffuse' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
-System memory in use before: 67.0 MB.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 18.9 MB.
+System memory in use before: 66.0 MB.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 18.1 MB.
 
-Unloading 825 unused Assets to reduce memory usage. Loaded Objects now: 786.
-Total: 33.637524 ms (FindLiveObjects: 0.324844 ms CreateObjectMapping: 0.086169 ms MarkObjects: 3.536364 ms  DeleteObjects: 15.427742 ms)
+Unloading 932 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 53.577900 ms (FindLiveObjects: 0.534117 ms CreateObjectMapping: 0.311169 ms MarkObjects: 5.367159 ms  DeleteObjects: 22.566278 ms)
 
-System memory in use before: 20.9 MB.
+System memory in use before: 20.0 MB.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 18.9 MB.
+System memory in use after: 18.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 755.
-Total: 5.288476 ms (FindLiveObjects: 0.108737 ms CreateObjectMapping: 0.047188 ms MarkObjects: 3.444040 ms  DeleteObjects: 0.175758 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 754.
+Total: 9.910916 ms (FindLiveObjects: 0.353570 ms CreateObjectMapping: 0.089589 ms MarkObjects: 5.266627 ms  DeleteObjects: 0.320059 ms)
 
-System memory in use before: 20.3 MB.
+System memory in use before: 19.4 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 19.0 MB.
+System memory in use after: 18.1 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 806.
-Total: 11.630133 ms (FindLiveObjects: 0.072491 ms CreateObjectMapping: 0.030090 ms MarkObjects: 3.335302 ms  DeleteObjects: 0.013677 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 805.
+Total: 25.455025 ms (FindLiveObjects: 0.177127 ms CreateObjectMapping: 0.089589 ms MarkObjects: 7.194510 ms  DeleteObjects: 0.034878 ms)
 
 System memory in use before: 33.7 MB.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 32.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 885.
-Total: 7.428349 ms (FindLiveObjects: 0.168235 ms CreateObjectMapping: 0.051975 ms MarkObjects: 3.543203 ms  DeleteObjects: 0.107369 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 887.
+Total: 14.575038 ms (FindLiveObjects: 0.207218 ms CreateObjectMapping: 0.107370 ms MarkObjects: 6.509253 ms  DeleteObjects: 0.168920 ms)
 
 
 
@@ -545,23 +550,23 @@ System memory in use before: 34.8 MB.
 Unloading 20 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 17.2 MB.
 
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 770.
-Total: 15.181543 ms (FindLiveObjects: 0.070440 ms CreateObjectMapping: 0.033510 ms MarkObjects: 2.848377 ms  DeleteObjects: 2.948908 ms)
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 769.
+Total: 33.156300 ms (FindLiveObjects: 0.581305 ms CreateObjectMapping: 0.194224 ms MarkObjects: 6.223388 ms  DeleteObjects: 6.589952 ms)
 
 System memory in use before: 17.2 MB.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 17.2 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 776.
-Total: 4.290689 ms (FindLiveObjects: 0.166867 ms CreateObjectMapping: 0.033510 ms MarkObjects: 2.985838 ms  DeleteObjects: 0.011626 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 775.
+Total: 8.220343 ms (FindLiveObjects: 0.302278 ms CreateObjectMapping: 0.062233 ms MarkObjects: 5.449226 ms  DeleteObjects: 0.023252 ms)
 
 DisplayProgressbar: Building Player
-System memory in use before: 70.5 MB.
-Unloading 105 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 56.2 MB.
+System memory in use before: 70.3 MB.
+Unloading 101 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 56.0 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1743.
-Total: 64.469078 ms (FindLiveObjects: 0.125150 ms CreateObjectMapping: 0.075227 ms MarkObjects: 4.105356 ms  DeleteObjects: 0.032142 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 131.478302 ms (FindLiveObjects: 0.335105 ms CreateObjectMapping: 0.166184 ms MarkObjects: 8.449447 ms  DeleteObjects: 0.060866 ms)
 
 WARNING: Shader Unsupported: 'Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
@@ -627,65 +632,65 @@ WARNING: Shader Unsupported: 'Mobile/Bumped Specular' - Pass 'SHADOWCOLLECTOR' s
 WARNING: Shader Unsupported: 'Mobile/Bumped Specular (1 Directional Light)' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'Mobile/VertexLit (Only Directional Lights)' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'UI/Lit/Refraction Detail (Pro Only)' - Pass 'FORWARD' shader state not supported
-System memory in use before: 159.0 MB.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use before: 158.9 MB.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 23.4 MB.
 
-Unloading 936 unused Assets to reduce memory usage. Loaded Objects now: 783.
-Total: 127.829567 ms (FindLiveObjects: 0.124466 ms CreateObjectMapping: 0.073859 ms MarkObjects: 3.348980 ms  DeleteObjects: 100.963181 ms)
+Unloading 1042 unused Assets to reduce memory usage. Loaded Objects now: 782.
+Total: 282.807861 ms (FindLiveObjects: 0.300911 ms CreateObjectMapping: 0.151139 ms MarkObjects: 5.817158 ms  DeleteObjects: 225.536270 ms)
 
 WARNING: Shader Unsupported: 'Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
 WARNING: Shader Unsupported: 'Bumped Specular' - Pass 'SHADOWCOLLECTOR' shader state not supported
-System memory in use before: 84.4 MB.
-Unloading 131 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 24.2 MB.
+System memory in use before: 84.2 MB.
+Unloading 130 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 24.1 MB.
 
-Unloading 795 unused Assets to reduce memory usage. Loaded Objects now: 788.
-Total: 79.541191 ms (FindLiveObjects: 0.330999 ms CreateObjectMapping: 0.123783 ms MarkObjects: 4.897294 ms  DeleteObjects: 12.809833 ms)
+Unloading 791 unused Assets to reduce memory usage. Loaded Objects now: 787.
+Total: 156.567459 ms (FindLiveObjects: 0.586776 ms CreateObjectMapping: 0.132674 ms MarkObjects: 5.489575 ms  DeleteObjects: 26.314672 ms)
 
-System memory in use before: 24.2 MB.
+System memory in use before: 24.1 MB.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 24.1 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 787.
-Total: 4.679135 ms (FindLiveObjects: 0.140196 ms CreateObjectMapping: 0.033510 ms MarkObjects: 2.922236 ms  DeleteObjects: 0.012309 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 786.
+Total: 9.678393 ms (FindLiveObjects: 0.270819 ms CreateObjectMapping: 0.064285 ms MarkObjects: 5.477949 ms  DeleteObjects: 0.022568 ms)
 
 System memory in use before: 24.1 MB.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 24.1 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 786.
-Total: 4.798131 ms (FindLiveObjects: 0.139512 ms CreateObjectMapping: 0.032826 ms MarkObjects: 3.374284 ms  DeleteObjects: 0.015045 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 8.606740 ms (FindLiveObjects: 0.275607 ms CreateObjectMapping: 0.061549 ms MarkObjects: 5.772021 ms  DeleteObjects: 0.028039 ms)
 
 System memory in use before: 24.8 MB.
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 24.1 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 7.950836 ms (FindLiveObjects: 0.177125 ms CreateObjectMapping: 0.075227 ms MarkObjects: 3.306579 ms  DeleteObjects: 0.038981 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 784.
+Total: 15.087954 ms (FindLiveObjects: 0.222947 ms CreateObjectMapping: 0.062917 ms MarkObjects: 5.993601 ms  DeleteObjects: 0.076595 ms)
 
 System memory in use before: 25.7 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 24.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 784.
-Total: 5.432775 ms (FindLiveObjects: 0.136776 ms CreateObjectMapping: 0.047188 ms MarkObjects: 2.976947 ms  DeleteObjects: 0.350148 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 783.
+Total: 10.259016 ms (FindLiveObjects: 0.231154 ms CreateObjectMapping: 0.090273 ms MarkObjects: 5.760395 ms  DeleteObjects: 0.278342 ms)
 
 
-Textures      33.2 mb	 68.2% 
+Textures      33.1 mb	 68.1% 
 Meshes        5.3 kb	 0.0% 
 Animations    6.2 kb	 0.0% 
 Sounds        660.7 kb	 1.3% 
 Shaders       419.4 kb	 0.8% 
 Other Assets  9.4 mb	 19.3% 
-Levels        44.0 kb	 0.1% 
-Scripts       969.9 kb	 1.9% 
+Levels        44.2 kb	 0.1% 
+Scripts       970.5 kb	 2.0% 
 Included DLLs 3.9 mb	 8.1% 
-File headers  141.8 kb	 0.3% 
-Complete size 48.7 mb	 100.0% 
+File headers  141.6 kb	 0.3% 
+Complete size 48.6 mb	 100.0% 
 
 Used Assets, sorted by uncompressed size:
- 21.3 mb	 43.8% Assets/Texture/Maker/Button.png
+ 21.3 mb	 43.9% Assets/Texture/Maker/Button.png
  9.3 mb	 19.1% Assets/Texture/Font/simhei.ttf
  2.7 mb	 5.5% Assets/NGUI/Examples/Atlases/Wooden/Wooden Atlas.png
  2.0 mb	 4.1% Assets/Number/bg1.png
@@ -697,7 +702,6 @@ Used Assets, sorted by uncompressed size:
  348.3 kb	 0.7% Resources/unity_builtin_extra
  211.5 kb	 0.4% Assets/Music/bgmusic.mp3
  170.7 kb	 0.3% Assets/Texture/Wood.jpg
- 135.1 kb	 0.3% Assets/Texture/gaox.png
  76.4 kb	 0.2% Assets/Music/Button_Tap.wav
  43.0 kb	 0.1% Assets/Texture/shar.jpg
  42.7 kb	 0.1% Assets/Standard Assets/Particles/Spark/star3.png
@@ -822,11 +826,10 @@ Used Assets, sorted by uncompressed size:
  0.8 kb	 0.0% Assets/Prefab/Check/Frame 10.prefab
  0.7 kb	 0.0% Assets/NGUI/Examples/Atlases/SciFi/SciFi Atlas.prefab
  0.6 kb	 0.0% Assets/Standard Assets/Particles/Spark/Star.prefab
+ 0.6 kb	 0.0% Assets/Texture/Maker/Button.prefab
  0.5 kb	 0.0% Assets/Prefab/help.prefab
- 0.4 kb	 0.0% Assets/Texture/Maker/Button.prefab
  0.3 kb	 0.0% Assets/NGUI/Examples/Atlases/SciFi/SciFi Atlas.mat
  0.2 kb	 0.0% Assets/Texture/Materials/Picture-1.mat
- 0.2 kb	 0.0% Assets/Prefab/gaoxiao.prefab
  0.2 kb	 0.0% Assets/Texture/Materials/Picture-9.mat
  0.2 kb	 0.0% Assets/Texture/Materials/Picture-8.mat
  0.2 kb	 0.0% Assets/Texture/Materials/Picture-7.mat
@@ -847,6 +850,7 @@ Used Assets, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/Prefab/Materials/Frame-None.mat
  0.1 kb	 0.0% Assets/Plugins/Android/AndroidUtils.cs
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcInfoCurve.cs
+ 0.1 kb	 0.0% Assets/Script/GlobgameStateControllor.cs
  0.1 kb	 0.0% Assets/Plugins/ShareSDK.cs
  0.1 kb	 0.0% Assets/NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Texture.cs
@@ -854,6 +858,7 @@ Used Assets, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerImageEffectBase.cs
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerGrayscaleEffect.cs
  0.1 kb	 0.0% Assets/Plugins/iOS/ShareSDKForiOS.cs
+ 0.1 kb	 0.0% Assets/Script/HelpPanelController.cs
  0.1 kb	 0.0% Assets/Script/ButtonCheckMovement.cs
  0.1 kb	 0.0% Assets/Script/Bmob/TestWeibo.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UISpriteAnimation.cs
@@ -883,7 +888,7 @@ Used Assets, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDisableDelayActive.cs
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/EffectScriptSample.cs
  0.1 kb	 0.0% Assets/NGUI/Examples/Atlases/Wooden/Wooden Atlas.mat
- 0.1 kb	 0.0% Assets/Script/gameControllor.cs
+ 0.1 kb	 0.0% Assets/Script/MenueController.cs
  0.1 kb	 0.0% Assets/Script/GameControler.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIOrthoCamera.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/Tweening/TweenTransform.cs
@@ -986,11 +991,10 @@ Used Assets, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/iTween/Sample/SampleInfo.cs
  0.1 kb	 0.0% Assets/iTween/Sample/RotateSample.cs
  0.1 kb	 0.0% Assets/iTween/Sample/MoveSample.cs
- 0.1 kb	 0.0% Assets/Script/playMovie.cs
- 0.1 kb	 0.0% Assets/Script/backToMenue.cs
- 0.1 kb	 0.0% Assets/Script/UIBtnEven.cs
+ 0.1 kb	 0.0% Assets/Script/PlayMovie.cs
  0.1 kb	 0.0% Assets/Script/NetState/TestNetState.cs
  0.1 kb	 0.0% Assets/Script/Bmob/MyGameTable.cs
+ 0.1 kb	 0.0% Assets/Script/BackToMenue.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UIViewport.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UITooltip.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UITexture.cs
@@ -1059,8 +1063,7 @@ Used Assets, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDontActive.cs
  0.1 kb	 0.0% Assets/Plugins/Demo.cs
  0.1 kb	 0.0% Assets/iTween/iTween.cs
- 0.1 kb	 0.0% Assets/Script/replay.cs
- 0.1 kb	 0.0% Assets/Script/inAndOut.cs
+ 0.1 kb	 0.0% Assets/Script/Replay.cs
  0.1 kb	 0.0% Assets/Script/Bmob/TestBmob.cs
  0.1 kb	 0.0% Assets/Script/Bmob/GameUser.cs
  0.1 kb	 0.0% Assets/NGUI/Scripts/UI/UISprite.cs
@@ -1107,7 +1110,7 @@ Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this mes
 Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
 Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
-Registered platform support modules in: 0.2014285s.
+Registered platform support modules in: 0.6537854s.
 DisplayProgressbar: Android SDK Detection
 AndroidSDKTools:
 
@@ -1150,43 +1153,43 @@ DisplayProgressbar: Creating APK package
 DisplayProgressbar: Aligning APK package
 DisplayProgressbar: Copying to output folder
 DisplayProgressbar: Building Player
-System memory in use before: 25.8 MB.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 23.6 MB.
+System memory in use before: 78.7 MB.
+Unloading 121 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 62.3 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 784.
-Total: 15.898937 ms (FindLiveObjects: 0.193539 ms CreateObjectMapping: 0.051291 ms MarkObjects: 4.117666 ms  DeleteObjects: 1.362981 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 156.731598 ms (FindLiveObjects: 0.558053 ms CreateObjectMapping: 0.273555 ms MarkObjects: 10.996247 ms  DeleteObjects: 1.484038 ms)
 
-System memory in use before: 23.5 MB.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 23.6 MB.
+System memory in use before: 62.4 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 62.4 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 784.
-Total: 4.364548 ms (FindLiveObjects: 0.156609 ms CreateObjectMapping: 0.046504 ms MarkObjects: 2.942753 ms  DeleteObjects: 0.011626 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 13.205893 ms (FindLiveObjects: 0.687308 ms CreateObjectMapping: 0.173707 ms MarkObjects: 8.934322 ms  DeleteObjects: 0.035562 ms)
 
 - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 13
 - starting compile Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll, for buildtarget 13
-System memory in use before: 23.5 MB.
+System memory in use before: 62.3 MB.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 23.6 MB.
+System memory in use after: 62.4 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 784.
-Total: 4.472602 ms (FindLiveObjects: 0.162764 ms CreateObjectMapping: 0.045820 ms MarkObjects: 3.021400 ms  DeleteObjects: 0.012993 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 10.810914 ms (FindLiveObjects: 0.687992 ms CreateObjectMapping: 0.151139 ms MarkObjects: 7.810694 ms  DeleteObjects: 0.026671 ms)
 
 
-*** Completed 'Build.Player.AndroidPlayer' in 80 seconds
+*** Completed 'Build.Player.AndroidPlayer' in 181 seconds
 
 Batchmode quit successfully invoked - shutting down!
-System memory in use before: 23.5 MB.
+System memory in use before: 62.1 MB.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 23.5 MB.
+System memory in use after: 23.8 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 778.
-Total: 4.639469 ms (FindLiveObjects: 0.076595 ms CreateObjectMapping: 0.032826 ms MarkObjects: 3.252552 ms  DeleteObjects: 0.013677 ms)
+Unloading 902 unused Assets to reduce memory usage. Loaded Objects now: 777.
+Total: 36.841091 ms (FindLiveObjects: 0.250987 ms CreateObjectMapping: 0.116261 ms MarkObjects: 6.891547 ms  DeleteObjects: 27.428043 ms)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.126019 seconds
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.215830 seconds
 
------ Total AssetImport time: 0.059067s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.101807s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 Cleanup mono
 Exiting batchmode successfully now!

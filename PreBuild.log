@@ -1,5 +1,5 @@
 
-LICENSE SYSTEM [201654 20:39:21] Next license update check is after 2026-04-30T00:00:00
+LICENSE SYSTEM [2016514 0:6:34] Next license update check is after 2026-04-30T00:00:00
 
 Built from 'release/4.6/patch-release' branch; Version is '4.6.3p3 (088b951bfc62) revision 560021'; Using compiler version '160040219'
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0
@@ -14,18 +14,18 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
 E:\Unity\Editor\Unity.exe
 -batchmode
 -projectPath
-D:\Unity\Nyist-Bysj\SmartBaby\
+G:\Project\SmartBaby\
 -executeMethod
 CommandBuild.PreBuild
 -debug
 -quit
 -logFile
 ./PreBuild.log
-Successfully changed project path to: D:\Unity\Nyist-Bysj\SmartBaby\
-D:/Unity/Nyist-Bysj/SmartBaby
-Loading GUID <-> Path mappings ... 0.009367 seconds.
-Loading Asset Database ...  0.065096 seconds
-AssetDatabase consistency checks ...  0.061592 seconds
+Successfully changed project path to: G:\Project\SmartBaby\
+G:/Project/SmartBaby
+Loading GUID <-> Path mappings ... 0.023004 seconds.
+Loading Asset Database ...  0.046729 seconds
+AssetDatabase consistency checks ...  0.101233 seconds
 Initialize engine version: 4.6.3p3 (088b951bfc62)
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -54,31 +54,39 @@ Setting MetroPlayer v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEn
 Setting WP8Player v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\wp8support
 Setting GUISystem v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3
 Registering custom dll's ...
-Non platform assembly: data-14EA0020 (this message is harmless)
-Non platform assembly: data-1485A8F8 (this message is harmless)
-Non platform assembly: data-1485A8F8 (this message is harmless)
-Non platform assembly: data-1485A8F8 (this message is harmless)
-Non platform assembly: data-135297A8 (this message is harmless)
+Non platform assembly: data-14C60020 (this message is harmless)
+Non platform assembly: data-14656C28 (this message is harmless)
+Non platform assembly: data-14656C28 (this message is harmless)
+Non platform assembly: data-14656C28 (this message is harmless)
+Non platform assembly: data-145A5DE0 (this message is harmless)
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\androidplayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\iossupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\wp8support/UnityEditor.WP8.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\metrosupport/UnityEditor.Metro.Extensions.dll
 Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer/UnityEditor.BB10.Extensions.dll
-Registered in 0.053031 seconds.
+Registered in 0.124613 seconds.
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll into Unity Child Domain
 Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll into Unity Child Domain
 Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
+Non platform assembly: G:\Project\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
+Loading G:\Project\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
 Platform assembly: E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 Loading E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
 Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\androidplayer\UnityEditor.Android.Extensions.dll (this message is harmless)
@@ -96,659 +104,30 @@ Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this 
 Platform assembly: E:\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
 Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
-- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 13
-- starting compile Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll, for buildtarget 13
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
-- Finished compile Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 13
-
------Compiler Commandline Arguments:
-Filename: E:/Unity/Editor/Data/Mono\bin\mono.exe
-Arguments: E:/Unity/Editor/Data/Mono\lib/mono/unity\smcs.exe  @Temp/UnityTempFile-9d4a52fc178f9b94b824a630a461a381
-MONO_PATH: E:/Unity/Editor/Data/Mono\lib\mono\unity
-MONO_CFG_DIR: E:/Unity/Editor/Data/Mono\etc
-index: 52
-Responsefile: Temp/UnityTempFile-9d4a52fc178f9b94b824a630a461a381 Contents: 
--debug
--target:library
--nowarn:0169
--out:Temp/Assembly-CSharp.dll
--r:E:/Unity/Editor/Data/Managed/UnityEngine.dll
--r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
--r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
--r:E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll
--r:Assets/Plugins/Unity/Bmob-Unity.dll
--r:E:/Unity/Editor/Data/Managed/UnityEditor.dll
--define:UNITY_4_6_3
--define:UNITY_4_6
--define:UNITY_ANDROID
--define:ENABLE_MICROPHONE
--define:ENABLE_TEXTUREID_MAP
--define:ENABLE_UNITYEVENTS
--define:ENABLE_NEW_HIERARCHY 
--define:ENABLE_AUDIO_FMOD
--define:ENABLE_TERRAIN
--define:ENABLE_SUBSTANCE
--define:ENABLE_GENERICS
--define:INCLUDE_IL2CPP
--define:INCLUDE_WP8SUPPORT
--define:ENABLE_WWW
--define:ENABLE_IMAGEEFFECTS
--define:ENABLE_4_6_FEATURES
--define:INCLUDE_WP_BLUE_SUPPORT
--define:ENABLE_WEBCAM
--define:INCLUDE_METROSUPPORT
--define:RENDER_SOFTWARE_CURSOR
--define:ENABLE_NETWORK
--define:ENABLE_PHYSICS
--define:UNITY5_SCRIPTING_IN_UNITY4
--define:ENABLE_CACHING
--define:ENABLE_CLOTH
--define:UNITY_ANDROID_API
--define:ENABLE_2D_PHYSICS
--define:ENABLE_SHADOWS
--define:ENABLE_AUDIO
--define:ENABLE_NAVMESH_CARVING
--define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
--define:ENABLE_MONO
--define:ENABLE_PROFILER
--define:UNITY_EDITOR
--define:UNITY_EDITOR_WIN
--define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/EffectScriptSample.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDetachObject.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDisableDelayActive.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcDontActive.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectAniBehaviour.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectBehaviour.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectInitBackup.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcRandomTimerTool.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcRepeatTimerTool.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcTimerTool.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NcTransformTool.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NgInterpolate.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NgMath.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsEffectManager.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsRenderManager.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/Common/NsSharedManager.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAddForce.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAttachPrefab.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAttachSound.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAutoDeactive.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcAutoDestruct.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcBillboard.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcChangeAlpha.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcCurveAnimation.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDelayActive.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDetachParent.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcDuplicator.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleEmit.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleSpiral.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcParticleSystem.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcRotation.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteAnimation.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteFactory.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcSpriteTexture.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcTilingTexture.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcTrailTexture.cs
-Assets/FXMaker/IGSoft_Resources/Scripts/NcEffect/NcUvAnimation.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAnimation.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAssambly.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAsset.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgAtlas.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgEnum.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgFile.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgGUIDraw.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgLayout.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgMaterial.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgObject.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgSerialized.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgString.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgTexture.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/GlobalScript/NgUtil.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcDrawFpsRect.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcDrawFpsText.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcSafeTool.cs
-Assets/FXMaker/IGSoft_Tools/CommonLib/Utility/NcTickTimerTool.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerGrayscaleEffect.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolResource/UnityShader/FXMakerImageEffectBase.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestControls.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestMain.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestMouse.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSetting.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSimulate.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSingleMain.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/TestScript/FxmTestSingleMouse.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerAsset.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerBackground.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerCapture.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerClipboard.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerControls.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerEffect.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerGizmo.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerHierarchy.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerLayout.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerMain.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerMouse.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerOption.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerPicking.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerQuickMenu.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerSimulate.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerTooltip.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FXMakerWireframe.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcCurveAnimation.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_NcInfoCurve.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Prefab.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmFolderPopup_Texture.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmInfoBackground.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmInfoIndexing.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmMenuPopup.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopupManager.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_GameObject.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_Object.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmPopup_Transform.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/ToolScript/FxmSpritePopup.cs
-Assets/FXMaker/IGSoft_Tools/FXMakerReplayScene/FxmReplayDemo.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs
-Assets/NGUI/Examples/Scripts/Other/ChatInput.cs
-Assets/NGUI/Examples/Scripts/Other/DownloadTexture.cs
-Assets/NGUI/Examples/Scripts/Other/EnvelopContent.cs
-Assets/NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs
-Assets/NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs
-Assets/NGUI/Examples/Scripts/Other/LagPosition.cs
-Assets/NGUI/Examples/Scripts/Other/LagRotation.cs
-Assets/NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs
-Assets/NGUI/Examples/Scripts/Other/LookAtTarget.cs
-Assets/NGUI/Examples/Scripts/Other/OpenURLOnClick.cs
-Assets/NGUI/Examples/Scripts/Other/PanWithMouse.cs
-Assets/NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs
-Assets/NGUI/Examples/Scripts/Other/SetColorOnSelection.cs
-Assets/NGUI/Examples/Scripts/Other/Spin.cs
-Assets/NGUI/Examples/Scripts/Other/SpinWithMouse.cs
-Assets/NGUI/Examples/Scripts/Other/Tutorial5.cs
-Assets/NGUI/Examples/Scripts/Other/UISliderColors.cs
-Assets/NGUI/Examples/Scripts/Other/WindowAutoYaw.cs
-Assets/NGUI/Examples/Scripts/Other/WindowDragTilt.cs
-Assets/NGUI/Scripts/Interaction/LanguageSelection.cs
-Assets/NGUI/Scripts/Interaction/TypewriterEffect.cs
-Assets/NGUI/Scripts/Interaction/UIButton.cs
-Assets/NGUI/Scripts/Interaction/UIButtonActivate.cs
-Assets/NGUI/Scripts/Interaction/UIButtonColor.cs
-Assets/NGUI/Scripts/Interaction/UIButtonKeys.cs
-Assets/NGUI/Scripts/Interaction/UIButtonMessage.cs
-Assets/NGUI/Scripts/Interaction/UIButtonOffset.cs
-Assets/NGUI/Scripts/Interaction/UIButtonRotation.cs
-Assets/NGUI/Scripts/Interaction/UIButtonScale.cs
-Assets/NGUI/Scripts/Interaction/UICenterOnChild.cs
-Assets/NGUI/Scripts/Interaction/UICenterOnClick.cs
-Assets/NGUI/Scripts/Interaction/UIDragCamera.cs
-Assets/NGUI/Scripts/Interaction/UIDragDropContainer.cs
-Assets/NGUI/Scripts/Interaction/UIDragDropItem.cs
-Assets/NGUI/Scripts/Interaction/UIDragDropRoot.cs
-Assets/NGUI/Scripts/Interaction/UIDragObject.cs
-Assets/NGUI/Scripts/Interaction/UIDragResize.cs
-Assets/NGUI/Scripts/Interaction/UIDragScrollView.cs
-Assets/NGUI/Scripts/Interaction/UIDraggableCamera.cs
-Assets/NGUI/Scripts/Interaction/UIEventTrigger.cs
-Assets/NGUI/Scripts/Interaction/UIForwardEvents.cs
-Assets/NGUI/Scripts/Interaction/UIGrid.cs
-Assets/NGUI/Scripts/Interaction/UIImageButton.cs
-Assets/NGUI/Scripts/Interaction/UIKeyBinding.cs
-Assets/NGUI/Scripts/Interaction/UIKeyNavigation.cs
-Assets/NGUI/Scripts/Interaction/UIPlayAnimation.cs
-Assets/NGUI/Scripts/Interaction/UIPlaySound.cs
-Assets/NGUI/Scripts/Interaction/UIPlayTween.cs
-Assets/NGUI/Scripts/Interaction/UIPopupList.cs
-Assets/NGUI/Scripts/Interaction/UIProgressBar.cs
-Assets/NGUI/Scripts/Interaction/UISavedOption.cs
-Assets/NGUI/Scripts/Interaction/UIScrollBar.cs
-Assets/NGUI/Scripts/Interaction/UIScrollView.cs
-Assets/NGUI/Scripts/Interaction/UISlider.cs
-Assets/NGUI/Scripts/Interaction/UISoundVolume.cs
-Assets/NGUI/Scripts/Interaction/UITable.cs
-Assets/NGUI/Scripts/Interaction/UIToggle.cs
-Assets/NGUI/Scripts/Interaction/UIToggledComponents.cs
-Assets/NGUI/Scripts/Interaction/UIToggledObjects.cs
-Assets/NGUI/Scripts/Interaction/UIWidgetContainer.cs
-Assets/NGUI/Scripts/Interaction/UIWrapContent.cs
-Assets/NGUI/Scripts/Internal/ActiveAnimation.cs
-Assets/NGUI/Scripts/Internal/AnimationOrTween.cs
-Assets/NGUI/Scripts/Internal/BMFont.cs
-Assets/NGUI/Scripts/Internal/BMGlyph.cs
-Assets/NGUI/Scripts/Internal/BMSymbol.cs
-Assets/NGUI/Scripts/Internal/BetterList.cs
-Assets/NGUI/Scripts/Internal/ByteReader.cs
-Assets/NGUI/Scripts/Internal/EventDelegate.cs
-Assets/NGUI/Scripts/Internal/Localization.cs
-Assets/NGUI/Scripts/Internal/NGUIDebug.cs
-Assets/NGUI/Scripts/Internal/NGUIMath.cs
-Assets/NGUI/Scripts/Internal/NGUIText.cs
-Assets/NGUI/Scripts/Internal/NGUITools.cs
-Assets/NGUI/Scripts/Internal/PropertyBinding.cs
-Assets/NGUI/Scripts/Internal/PropertyReference.cs
-Assets/NGUI/Scripts/Internal/RealTime.cs
-Assets/NGUI/Scripts/Internal/SpringPanel.cs
-Assets/NGUI/Scripts/Internal/UIBasicSprite.cs
-Assets/NGUI/Scripts/Internal/UIDrawCall.cs
-Assets/NGUI/Scripts/Internal/UIEventListener.cs
-Assets/NGUI/Scripts/Internal/UIGeometry.cs
-Assets/NGUI/Scripts/Internal/UIRect.cs
-Assets/NGUI/Scripts/Internal/UISnapshotPoint.cs
-Assets/NGUI/Scripts/Internal/UIWidget.cs
-Assets/NGUI/Scripts/Tweening/AnimatedAlpha.cs
-Assets/NGUI/Scripts/Tweening/AnimatedColor.cs
-Assets/NGUI/Scripts/Tweening/AnimatedWidget.cs
-Assets/NGUI/Scripts/Tweening/SpringPosition.cs
-Assets/NGUI/Scripts/Tweening/TweenAlpha.cs
-Assets/NGUI/Scripts/Tweening/TweenColor.cs
-Assets/NGUI/Scripts/Tweening/TweenFOV.cs
-Assets/NGUI/Scripts/Tweening/TweenHeight.cs
-Assets/NGUI/Scripts/Tweening/TweenOrthoSize.cs
-Assets/NGUI/Scripts/Tweening/TweenPosition.cs
-Assets/NGUI/Scripts/Tweening/TweenRotation.cs
-Assets/NGUI/Scripts/Tweening/TweenScale.cs
-Assets/NGUI/Scripts/Tweening/TweenTransform.cs
-Assets/NGUI/Scripts/Tweening/TweenVolume.cs
-Assets/NGUI/Scripts/Tweening/TweenWidth.cs
-Assets/NGUI/Scripts/Tweening/UITweener.cs
-Assets/NGUI/Scripts/UI/UI2DSprite.cs
-Assets/NGUI/Scripts/UI/UI2DSpriteAnimation.cs
-Assets/NGUI/Scripts/UI/UIAnchor.cs
-Assets/NGUI/Scripts/UI/UIAtlas.cs
-Assets/NGUI/Scripts/UI/UICamera.cs
-Assets/NGUI/Scripts/UI/UIFont.cs
-Assets/NGUI/Scripts/UI/UIInput.cs
-Assets/NGUI/Scripts/UI/UIInputOnGUI.cs
-Assets/NGUI/Scripts/UI/UILabel.cs
-Assets/NGUI/Scripts/UI/UILocalize.cs
-Assets/NGUI/Scripts/UI/UIOrthoCamera.cs
-Assets/NGUI/Scripts/UI/UIPanel.cs
-Assets/NGUI/Scripts/UI/UIRoot.cs
-Assets/NGUI/Scripts/UI/UISprite.cs
-Assets/NGUI/Scripts/UI/UISpriteAnimation.cs
-Assets/NGUI/Scripts/UI/UISpriteData.cs
-Assets/NGUI/Scripts/UI/UIStretch.cs
-Assets/NGUI/Scripts/UI/UITextList.cs
-Assets/NGUI/Scripts/UI/UITexture.cs
-Assets/NGUI/Scripts/UI/UITooltip.cs
-Assets/NGUI/Scripts/UI/UIViewport.cs
-Assets/Script/Bmob/GameUser.cs
-Assets/Script/Bmob/MyGameTable.cs
-Assets/Script/Bmob/TestBmob.cs
-Assets/Script/Bmob/TestWeibo.cs
-Assets/Script/ButtonCheckMovement.cs
-Assets/Script/GameControler.cs
-Assets/Script/NetState/TestNetState.cs
-Assets/Script/Test.cs
-Assets/Script/UIBtnEven.cs
-Assets/Script/back.cs
-Assets/Script/backToMenue.cs
-Assets/Script/gameControllor.cs
-Assets/Script/inAndOut.cs
-Assets/Script/playMovie.cs
-Assets/Script/replay.cs
-Assets/iTween/Sample/MoveSample.cs
-Assets/iTween/Sample/RotateSample.cs
-Assets/iTween/Sample/SampleInfo.cs
-Assets/iTween/iTween.cs
--r:E:/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll
--r:E:/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll
-
------CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
-Compilation succeeded - 3 warning(s)
------CompilerOutput:-stderr----------
-Assets/Script/Bmob/TestBmob.cs(189,29): warning CS0219: The variable `mg' is assigned but its value is never used
-Assets/Script/GameControler.cs(23,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
-Assets/Script/UIBtnEven.cs(15,24): warning CS0414: The private field `UIBtnEven.BtnPanel' is assigned but its value is never used
------EndCompilerOutput---------------
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Assets/Script/Bmob/TestBmob.cs(189,29): warning CS0219: The variable `mg' is assigned but its value is never used
- 
-(Filename: Assets/Script/Bmob/TestBmob.cs Line: 189)
-
-Assets/Script/GameControler.cs(23,23): warning CS0414: The private field `GameControler.clip' is assigned but its value is never used
- 
-(Filename: Assets/Script/GameControler.cs Line: 23)
-
-Assets/Script/UIBtnEven.cs(15,24): warning CS0414: The private field `UIBtnEven.BtnPanel' is assigned but its value is never used
- 
-(Filename: Assets/Script/UIBtnEven.cs Line: 15)
-
-- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 13
-
------Compiler Commandline Arguments:
-Filename: E:/Unity/Editor/Data/Mono\bin\mono.exe
-Arguments: E:/Unity/Editor/Data/Mono\lib/mono/2.0\gmcs.exe  @Temp/UnityTempFile-b575f09ce1bcb8344bb82360fc86322d
-MONO_PATH: E:/Unity/Editor/Data/Mono\lib\mono\2.0
-MONO_CFG_DIR: E:/Unity/Editor/Data/Mono\etc
-index: 50
-Responsefile: Temp/UnityTempFile-b575f09ce1bcb8344bb82360fc86322d Contents: 
--debug
--target:library
--nowarn:0169
--out:Temp/Assembly-CSharp-Editor.dll
--r:E:/Unity/Editor/Data/Managed/UnityEngine.dll
--r:E:/Unity/Editor/Data/Managed/UnityEditor.dll
--r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
--r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
--r:Library/ScriptAssemblies/Assembly-CSharp.dll
--r:E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll
--r:E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/Editor/UnityEditor.UI.dll
--r:Assets/Plugins/Unity/Bmob-Unity.dll
--r:Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
--r:Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll
--r:Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll
--r:E:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll
--define:UNITY_4_6_3
--define:UNITY_4_6
--define:UNITY_ANDROID
--define:ENABLE_MICROPHONE
--define:ENABLE_TEXTUREID_MAP
--define:ENABLE_UNITYEVENTS
--define:ENABLE_NEW_HIERARCHY 
--define:ENABLE_AUDIO_FMOD
--define:ENABLE_TERRAIN
--define:ENABLE_SUBSTANCE
--define:ENABLE_GENERICS
--define:INCLUDE_IL2CPP
--define:INCLUDE_WP8SUPPORT
--define:ENABLE_WWW
--define:ENABLE_IMAGEEFFECTS
--define:ENABLE_4_6_FEATURES
--define:INCLUDE_WP_BLUE_SUPPORT
--define:ENABLE_WEBCAM
--define:INCLUDE_METROSUPPORT
--define:RENDER_SOFTWARE_CURSOR
--define:ENABLE_NETWORK
--define:ENABLE_PHYSICS
--define:UNITY5_SCRIPTING_IN_UNITY4
--define:ENABLE_CACHING
--define:ENABLE_CLOTH
--define:UNITY_ANDROID_API
--define:ENABLE_2D_PHYSICS
--define:ENABLE_SHADOWS
--define:ENABLE_AUDIO
--define:ENABLE_NAVMESH_CARVING
--define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
--define:ENABLE_MONO
--define:ENABLE_PROFILER
--define:UNITY_EDITOR
--define:UNITY_EDITOR_WIN
--define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
--define:ENABLE_DUCK_TYPING
-Assets/Editor/CommandBuild.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/FXMakerModelToPrefabWindow.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/FXMakerSizeConvertWindow.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/FXMakerTextureConvertWindow.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerOptionEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FxmTestSettingEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcAddForceEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcAttachPrefabEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcAttachSoundEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcAutoDeactiveEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcAutoDestructEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcBillboardEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcCurveAnimationEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcDelayActiveEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcDetachParentEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcDuplicatorEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcParticleEmitEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcParticleSpiralEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcParticleSystemEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcRotationEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcSpriteAnimationEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcSpriteFactoryEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcSpriteTextureEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcTilingTextureEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcTrailTextureEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/NcUvAnimationEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/sample/FXMakerGizmoEditor.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/sample/FxmDrawGizmo.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/sample/NcCurveAnimationEditorWindow.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/sample/NcEditorWindow.cs
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/sample/NcParticleSystemShurikenEditor.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs
-Assets/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs
-Assets/NGUI/Scripts/Editor/ActiveAnimationEditor.cs
-Assets/NGUI/Scripts/Editor/BMFontReader.cs
-Assets/NGUI/Scripts/Editor/ComponentSelector.cs
-Assets/NGUI/Scripts/Editor/EventDelegateDrawer.cs
-Assets/NGUI/Scripts/Editor/EventDelegateEditor.cs
-Assets/NGUI/Scripts/Editor/FreeType.cs
-Assets/NGUI/Scripts/Editor/NGUIContextMenu.cs
-Assets/NGUI/Scripts/Editor/NGUIEditorExtensions.cs
-Assets/NGUI/Scripts/Editor/NGUIEditorTools.cs
-Assets/NGUI/Scripts/Editor/NGUIHandles.cs
-Assets/NGUI/Scripts/Editor/NGUIHelp.cs
-Assets/NGUI/Scripts/Editor/NGUIJson.cs
-Assets/NGUI/Scripts/Editor/NGUIMenu.cs
-Assets/NGUI/Scripts/Editor/NGUISelectionTools.cs
-Assets/NGUI/Scripts/Editor/NGUISettings.cs
-Assets/NGUI/Scripts/Editor/NGUISnap.cs
-Assets/NGUI/Scripts/Editor/NGUITransformInspector.cs
-Assets/NGUI/Scripts/Editor/PropertyBindingEditor.cs
-Assets/NGUI/Scripts/Editor/PropertyReferenceDrawer.cs
-Assets/NGUI/Scripts/Editor/SpriteSelector.cs
-Assets/NGUI/Scripts/Editor/TweenAlphaEditor.cs
-Assets/NGUI/Scripts/Editor/TweenColorEditor.cs
-Assets/NGUI/Scripts/Editor/TweenFOVEditor.cs
-Assets/NGUI/Scripts/Editor/TweenHeightEditor.cs
-Assets/NGUI/Scripts/Editor/TweenOrthoSizeEditor.cs
-Assets/NGUI/Scripts/Editor/TweenPositionEditor.cs
-Assets/NGUI/Scripts/Editor/TweenRotationEditor.cs
-Assets/NGUI/Scripts/Editor/TweenScaleEditor.cs
-Assets/NGUI/Scripts/Editor/TweenTransformEditor.cs
-Assets/NGUI/Scripts/Editor/TweenVolumeEditor.cs
-Assets/NGUI/Scripts/Editor/TweenWidthEditor.cs
-Assets/NGUI/Scripts/Editor/UI2DSpriteEditor.cs
-Assets/NGUI/Scripts/Editor/UIAnchorEditor.cs
-Assets/NGUI/Scripts/Editor/UIAtlasInspector.cs
-Assets/NGUI/Scripts/Editor/UIAtlasMaker.cs
-Assets/NGUI/Scripts/Editor/UIBasicSpriteEditor.cs
-Assets/NGUI/Scripts/Editor/UIButtonColorEditor.cs
-Assets/NGUI/Scripts/Editor/UIButtonEditor.cs
-Assets/NGUI/Scripts/Editor/UIButtonKeysEditor.cs
-Assets/NGUI/Scripts/Editor/UIButtonMessageEditor.cs
-Assets/NGUI/Scripts/Editor/UICameraEditor.cs
-Assets/NGUI/Scripts/Editor/UICameraTool.cs
-Assets/NGUI/Scripts/Editor/UICreateNewUIWizard.cs
-Assets/NGUI/Scripts/Editor/UICreateWidgetWizard.cs
-Assets/NGUI/Scripts/Editor/UIDragObjectEditor.cs
-Assets/NGUI/Scripts/Editor/UIDrawCallInspector.cs
-Assets/NGUI/Scripts/Editor/UIDrawCallViewer.cs
-Assets/NGUI/Scripts/Editor/UIEventTriggerEditor.cs
-Assets/NGUI/Scripts/Editor/UIFontInspector.cs
-Assets/NGUI/Scripts/Editor/UIFontMaker.cs
-Assets/NGUI/Scripts/Editor/UIForwardEventsEditor.cs
-Assets/NGUI/Scripts/Editor/UIGridEditor.cs
-Assets/NGUI/Scripts/Editor/UIImageButtonInspector.cs
-Assets/NGUI/Scripts/Editor/UIInputEditor.cs
-Assets/NGUI/Scripts/Editor/UIKeyNavigationEditor.cs
-Assets/NGUI/Scripts/Editor/UILabelInspector.cs
-Assets/NGUI/Scripts/Editor/UILocalizeEditor.cs
-Assets/NGUI/Scripts/Editor/UIPanelInspector.cs
-Assets/NGUI/Scripts/Editor/UIPanelTool.cs
-Assets/NGUI/Scripts/Editor/UIPlayAnimationEditor.cs
-Assets/NGUI/Scripts/Editor/UIPlayTweenEditor.cs
-Assets/NGUI/Scripts/Editor/UIPopupListInspector.cs
-Assets/NGUI/Scripts/Editor/UIPrefabTool.cs
-Assets/NGUI/Scripts/Editor/UIProgressBarEditor.cs
-Assets/NGUI/Scripts/Editor/UIRectEditor.cs
-Assets/NGUI/Scripts/Editor/UIRootEditor.cs
-Assets/NGUI/Scripts/Editor/UIScrollBarEditor.cs
-Assets/NGUI/Scripts/Editor/UIScrollViewEditor.cs
-Assets/NGUI/Scripts/Editor/UISliderEditor.cs
-Assets/NGUI/Scripts/Editor/UISnapshotPointEditor.cs
-Assets/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs
-Assets/NGUI/Scripts/Editor/UISpriteInspector.cs
-Assets/NGUI/Scripts/Editor/UIStretchEditor.cs
-Assets/NGUI/Scripts/Editor/UITableEditor.cs
-Assets/NGUI/Scripts/Editor/UITextureInspector.cs
-Assets/NGUI/Scripts/Editor/UITexturePacker.cs
-Assets/NGUI/Scripts/Editor/UIToggleInspector.cs
-Assets/NGUI/Scripts/Editor/UITweenerEditor.cs
-Assets/NGUI/Scripts/Editor/UIWidgetContainerEditor.cs
-Assets/NGUI/Scripts/Editor/UIWidgetInspector.cs
-Assets/NGUI/Scripts/Editor/UIWrapContentEditor.cs
--r:E:/Unity/Editor/Data/Mono\lib/mono/2.0\System.Runtime.Serialization.dll
--r:E:/Unity/Editor/Data/Mono\lib/mono/2.0\System.Xml.Linq.dll
-
------CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp-Editor.dll
-Compilation succeeded - 9 warning(s)
------CompilerOutput:-stderr----------
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(63,18): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(64,18): warning CS0618: `UnityEditor.Undo.CreateSnapshot()' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(65,18): warning CS0618: `UnityEditor.Undo.ClearSnapshotTarget()' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(90,18): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(91,18): warning CS0618: `UnityEditor.Undo.CreateSnapshot()' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(92,18): warning CS0618: `UnityEditor.Undo.ClearSnapshotTarget()' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(102,14): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(103,14): warning CS0618: `UnityEditor.Undo.RegisterSnapshot()' is obsolete: `Use Undo.RecordObject instead'
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(104,14): warning CS0618: `UnityEditor.Undo.ClearSnapshotTarget()' is obsolete: `Use Undo.RecordObject instead'
------EndCompilerOutput---------------
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(63,18): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 63)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(64,18): warning CS0618: `UnityEditor.Undo.CreateSnapshot()' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 64)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(65,18): warning CS0618: `UnityEditor.Undo.ClearSnapshotTarget()' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 65)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(90,18): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 90)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(91,18): warning CS0618: `UnityEditor.Undo.CreateSnapshot()' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 91)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(92,18): warning CS0618: `UnityEditor.Undo.ClearSnapshotTarget()' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 92)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(102,14): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 102)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(103,14): warning CS0618: `UnityEditor.Undo.RegisterSnapshot()' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 103)
-
-Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs(104,14): warning CS0618: `UnityEditor.Undo.ClearSnapshotTarget()' is obsolete: `Use Undo.RecordObject instead'
- 
-(Filename: Assets/FXMaker/IGSoft_Tools/FXMaker/ToolScript/Editor/Inspector/FXMakerUndoManager.cs Line: 104)
-
-Reloading assemblies after successful script compilation.
-Begin MonoManager ReloadAssembly
-Platform assembly: E:\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
-Registering custom dll's ...
-Non platform assembly: data-14F30020 (this message is harmless)
-Non platform assembly: data-14686D50 (this message is harmless)
-Non platform assembly: data-14936B58 (this message is harmless)
-Non platform assembly: data-146F3CF8 (this message is harmless)
-Non platform assembly: data-14B4D1B8 (this message is harmless)
-Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\androidplayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\iossupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\wp8support/UnityEditor.WP8.Extensions.dll
-Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\metrosupport/UnityEditor.Metro.Extensions.dll
-Register platform support module: E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer/UnityEditor.BB10.Extensions.dll
-Registered in 0.049703 seconds.
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.3\Unity.PackageManager.dll into Unity Child Domain
-Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\UnityEngine.UI.dll into Unity Child Domain
-Non platform assembly: E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3\Editor\UnityEditor.UI.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\Plugins\Unity\Bmob-Unity.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
-Non platform assembly: D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
-Loading D:\Unity\Nyist-Bysj\SmartBaby\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\androidplayer\UnityEditor.Android.Extensions.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\PlaybackEngines\androidplayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\iossupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\PlaybackEngines\iossupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\wp8support\UnityEditor.WP8.Extensions.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\PlaybackEngines\wp8support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\metrosupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\PlaybackEngines\metrosupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
-Loading E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
-Initializing Unity.PackageManager (PackageManager) v4.6.3 for Unity v4.6.3
-Setting Android v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\androidplayer
-Setting BB10 v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\blackberryplayer
-Setting iPhone v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\iossupport
-Setting MetroPlayer v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\metrosupport
-Setting WP8Player v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\PlaybackEngines\wp8support
-Setting GUISystem v4.6.3 for Unity v4.6.3p3 to E:\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.3
-Platform assembly: E:\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
-Platform assembly: E:\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
-Mono: successfully reloaded assembly
-- Completed reload, in  1.961 seconds
-System memory in use before: 30.4 MB.
+- Completed reload, in  3.807 seconds
+System memory in use before: 30.3 MB.
 Unloading 400 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 11.0 MB.
+System memory in use after: 10.9 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 721.
-Total: 81.797333 ms (FindLiveObjects: 0.095743 ms CreateObjectMapping: 0.034194 ms MarkObjects: 1.463512 ms  DeleteObjects: 0.012993 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 720.
+Total: 179.784790 ms (FindLiveObjects: 0.160713 ms CreateObjectMapping: 0.103267 ms MarkObjects: 2.816938 ms  DeleteObjects: 0.021200 ms)
 
-Validating Project structure ... 0.030663 seconds.
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.088764 seconds
+Validating Project structure ... 0.080582 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.001740 seconds
+----- Compute hash(es) for 1 asset(s).
+----- Asset named Assets/Script/Bmob/MyGameTable.cs is skipped as no actual change.
 
------ Total AssetImport time: 0.058062s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+Refresh: elapses 0.197399 seconds
 
-System memory in use before: 11.9 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 11.3 MB.
+----- Total AssetImport time: 0.121952s, AssetImport time: 0.000001s, Asset hashing: 0.002445s [1.0 KB, 0.386946 mb/s]
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 722.
-Total: 6.267798 ms (FindLiveObjects: 0.093008 ms CreateObjectMapping: 0.030090 ms MarkObjects: 1.717233 ms  DeleteObjects: 0.017780 ms)
+System memory in use before: 66.6 MB.
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 51.5 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 136.753830 ms (FindLiveObjects: 0.429482 ms CreateObjectMapping: 0.112157 ms MarkObjects: 4.809790 ms  DeleteObjects: 0.048556 ms)
 
 PreBuild
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -774,21 +153,21 @@ CommandBuild:PreBuild() (at Assets\Editor\CommandBuild.cs:93)
 (Filename: Assets/Editor/CommandBuild.cs Line: 133)
 
 Batchmode quit successfully invoked - shutting down!
-System memory in use before: 12.0 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 11.3 MB.
+System memory in use before: 51.4 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 13.1 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 724.
-Total: 6.171370 ms (FindLiveObjects: 0.065652 ms CreateObjectMapping: 0.024619 ms MarkObjects: 1.404014 ms  DeleteObjects: 0.010258 ms)
+Unloading 901 unused Assets to reduce memory usage. Loaded Objects now: 729.
+Total: 21.805796 ms (FindLiveObjects: 0.248251 ms CreateObjectMapping: 0.101215 ms MarkObjects: 2.394294 ms  DeleteObjects: 16.846231 ms)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.097791 seconds
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.174864 seconds
 
------ Total AssetImport time: 0.063073s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.093771s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 83.184928 ms] 
+ done. [Time: 199.341968 ms] 
 
------ Total AssetImport time: 0.183018s, AssetImport time: 0.131234s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.542693s, AssetImport time: 0.441621s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 Cleanup mono
 Exiting batchmode successfully now!
