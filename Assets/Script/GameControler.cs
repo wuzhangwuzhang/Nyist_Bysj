@@ -38,6 +38,7 @@ public class GameControler : MonoBehaviour
     public GameObject sparks;
     private AudioSource source;
     private AudioClip clip;
+    public static int rewardScore = 0;
 
     void Awake()
     {
@@ -102,6 +103,8 @@ public class GameControler : MonoBehaviour
                         Debug.Log("恭喜挑战成功，是否存储挑战成绩?");
                         Handheld.Vibrate();
                         StartCoroutine(loadBmobLevel());
+                        //奖励得分
+                        rewardScore = Mathf.CeilToInt((20f - MenueController.TimeCount) * 20f);
                     }
                     else
                     {
