@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class backToMenue : MonoBehaviour 
+public class BackToMenue : MonoBehaviour 
 {
 
 	// Use this for initialization

@@ -6,18 +6,35 @@ using System.Collections;
 /// </summary>
 public class GameControler : MonoBehaviour
 {
-    public static GameObject checkObjOne;       // 引用到鼠标第一个点击对象
-    public static GameObject checkObjTwo;       // 引用到鼠标第二个点击对象
-    public static int playDestoryNumber = 0;    // 记录消除了多少个
-    public GameObject gaoxiao;
-
+    /// <summary>
+    /// 引用到鼠标第一个点击对象
+    /// </summary>
+    public static GameObject checkObjOne;
+    /// <summary>
+    /// 引用到鼠标第二个点击对象
+    /// </summary>
+    public static GameObject checkObjTwo;
+    /// <summary>
+    /// 记录消除对数
+    /// </summary>      
+    public static int playDestoryNumber = 0;     
+    
+    /// <summary>
+    /// 结束动画
+    /// </summary>
     public UIPlayAnimation overGameShowUI;
+    /// <summary>
+    /// 单对消除特效
+    /// </summary>
     public GameObject fxMaker;
     public GameObject BtnPanel;
     public AudioClip right;
     public AudioClip cut;
     public static bool firstPlayOver = false;
     public GameObject btn_music;
+    /// <summary>
+    /// 挑战成功特效
+    /// </summary>
     public GameObject sparks;
     private AudioSource source;
     private AudioClip clip;
@@ -39,12 +56,12 @@ public class GameControler : MonoBehaviour
         if (source.isPlaying)
         {
             source.Stop();
-            go.GetComponent<UISprite>().spriteName = "02";
+            go.GetComponent<UISprite>().spriteName = "off";
         }
         else
         {
             source.Play();
-            go.GetComponent<UISprite>().spriteName = "01";
+            go.GetComponent<UISprite>().spriteName = "on";
         }
     }
     void Update()
@@ -56,7 +73,7 @@ public class GameControler : MonoBehaviour
             {
                 audio.volume = 0.5f;
                 audio.PlayOneShot(cut);
-                UIBtnEven.getScore += 10;
+                MenueController.getScore += 10;
                 Destroy(Instantiate(fxMaker, checkObjOne.transform.position, checkObjOne.transform.rotation), 2f);
                 Destroy(Instantiate(fxMaker, checkObjTwo.transform.position, checkObjTwo.transform.rotation), 2f);
                 Destroy(checkObjOne);
@@ -80,11 +97,8 @@ public class GameControler : MonoBehaviour
                         Destroy(go, 3f);
                     }
 
-                    if (UIBtnEven.TimeCount <= 20)
+                    if (MenueController.TimeCount <= 20)
                     {
-                        //搞笑图片
-                        //GameObject go = Instantiate(gaoxiao) as GameObject;
-                        //Destroy(go, 1.5f);
                         Debug.Log("恭喜挑战成功，是否存储挑战成绩?");
                         Handheld.Vibrate();
                         StartCoroutine(loadBmobLevel());
@@ -101,25 +115,24 @@ public class GameControler : MonoBehaviour
                 checkObjOne.GetComponent<ButtonCheckMovement>().isRotate = false;
                 checkObjTwo.GetComponent<ButtonCheckMovement>().isBack = true;
                 checkObjTwo.GetComponent<ButtonCheckMovement>().isRotate = false;
-                if (UIBtnEven.getScore > 0)
+                if (MenueController.getScore > 0)
                 {
-                    UIBtnEven.getScore -= 5;
+                    MenueController.getScore -= 5;
                 }
                 checkObjOne = null;
                 checkObjTwo = null;
                 firstPlayOver = false;
             }
         }
-
         //加载数字或图片后的推出
         if (Input.GetKey(KeyCode.Escape))
         {
             Application.LoadLevel("first");
-            UIBtnEven.getScore = 0;
-            UIBtnEven.isStarting = false;
-            UIBtnEven.ScoreStr = "";
-            UIBtnEven.TimeCount = 0;
-            UIBtnEven.TimeStr = "";
+            MenueController.getScore = 0;
+            MenueController.isStarting = false;
+            MenueController.ScoreStr = "";
+            MenueController.TimeCount = 0;
+            MenueController.TimeStr = "";
             playDestoryNumber = 0;
         }
     }
@@ -129,6 +142,7 @@ public class GameControler : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Application.LoadLevel("Bmob");
     }
+
     public IEnumerator ShowMenue()
     {
         yield return new WaitForSeconds(3f);

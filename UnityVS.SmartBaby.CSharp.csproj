@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>4.6.3p3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -309,15 +311,15 @@
     <Compile Include="Assets\Script\Bmob\TestWeibo.cs" />
     <Compile Include="Assets\Script\ButtonCheckMovement.cs" />
     <Compile Include="Assets\Script\GameControler.cs" />
+    <Compile Include="Assets\Script\MenueController.cs" />
     <Compile Include="Assets\Script\NetState\TestNetState.cs" />
     <Compile Include="Assets\Script\Test.cs" />
-    <Compile Include="Assets\Script\UIBtnEven.cs" />
     <Compile Include="Assets\Script\back.cs" />
-    <Compile Include="Assets\Script\backToMenue.cs" />
-    <Compile Include="Assets\Script\gameControllor.cs" />
-    <Compile Include="Assets\Script\inAndOut.cs" />
-    <Compile Include="Assets\Script\playMovie.cs" />
-    <Compile Include="Assets\Script\replay.cs" />
+    <Compile Include="Assets\Script\BackToMenue.cs" />
+    <Compile Include="Assets\Script\GlobgameStateControllor.cs" />
+    <Compile Include="Assets\Script\HelpPanelController.cs" />
+    <Compile Include="Assets\Script\PlayMovie.cs" />
+    <Compile Include="Assets\Script\Replay.cs" />
     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />

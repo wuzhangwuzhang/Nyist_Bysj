@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class replay : MonoBehaviour 
+public class Replay : MonoBehaviour 
 {
 	public AudioSource sorce;
 	void OnMouseDown()

@@ -99,7 +99,7 @@ public class TestBmob : MonoBehaviour
         }
         #endregion
 #endif
-        lab_score.text = UIBtnEven.getScore.ToString();
+        lab_score.text = MenueController.getScore.ToString();
         if (dataList.Count == 0)
             return;
         lab_user1.text = dataList[0].playerName+" "+dataList[0].score;
@@ -125,11 +125,11 @@ public class TestBmob : MonoBehaviour
         yield return new WaitForSeconds(1f);
         if (objectid == "")
         {
-            InsertData(inputName.value, UIBtnEven.getScore);
+            InsertData(inputName.value, MenueController.getScore);
         }
         else
         {
-            updateData(AlreadyExists(inputName.value), UIBtnEven.getScore);
+            updateData(AlreadyExists(inputName.value), MenueController.getScore);
         } 
     }
 	#region

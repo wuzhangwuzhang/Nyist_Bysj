@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class playMovie : MonoBehaviour 
+public class PlayMovie : MonoBehaviour 
 {
 
 	// Use this for initialization

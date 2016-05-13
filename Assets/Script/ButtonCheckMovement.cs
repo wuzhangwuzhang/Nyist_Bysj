@@ -3,11 +3,22 @@ using System.Collections;
 
 public class ButtonCheckMovement : MonoBehaviour 
 {
-    public bool isBack = false;     // 记录是否可以闭合
-    public bool isRotate = false;    // 记录是否可以打开
-
-    private int OpenSpeed = 200;    // 打开速度
-    private int CloseSpeed = 350;   // 闭合速度
+    /// <summary>
+    /// 记录是否可以闭合
+    /// </summary>
+    public bool isBack = false;
+    /// <summary>
+    /// 记录是否可以打开
+    /// </summary>      
+    public bool isRotate = false;
+    /// <summary>
+    /// 打开速度
+    /// </summary>
+    private int OpenSpeed = 200;
+    /// <summary>
+    /// 闭合速度
+    /// </summary>
+    private int CloseSpeed = 350;  
 
 	void Update () 
     {
@@ -35,9 +46,8 @@ public class ButtonCheckMovement : MonoBehaviour
     /// </summary>
     void MouseDown()
     {
-        if (Input.GetMouseButtonDown(0)) // 或用if (Input.GetButtonDown ("Fire1")) 
+        if (Input.GetMouseButtonDown(0))  
         {
-
             RaycastHit hit;
             Ray r = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(r, out hit)) // 判断是否在视野范围内鼠标按下
