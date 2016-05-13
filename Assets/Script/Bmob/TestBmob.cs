@@ -4,12 +4,11 @@ using cn.bmob.api;
 using cn.bmob.tools;
 using cn.bmob.io;
 using System.Collections.Generic;
-using System.IO;
 using System.Text;
 using System;
 
 
-public class TestBmob : MonoBehaviour 
+public class TestBmob : MonoBehaviour
 {
     public UILabel lab_user1;
     public UILabel lab_user2;
@@ -17,22 +16,52 @@ public class TestBmob : MonoBehaviour
     public UIButton btn_Submit;
     public UIInput inputName;
     public UILabel lab_score;
+    public UILabel lab_netState;
 
     private string myObjectid;
-	private BmobUnity Bmob;
+    private BmobUnity Bmob;
     private List<MyGameTable> dataList = new List<MyGameTable>();
+    private StringBuilder NetState = new StringBuilder();
+    private bool canUpload = false;
 
-	// Use this for initialization  
-	void Start()  
-	{
-		BmobDebug.Register(print);  
-		Bmob = gameObject.GetComponent<BmobUnity>();
+    void Awake()
+    {
+        //当网络不可用时
+        if (Application.internetReachability == NetworkReachability.NotReachable)
+        {
+            NetState = new StringBuilder("404");
+            canUpload = false;
+        }
+        //当用户使用WiFi时
+        if (Application.internetReachability == NetworkReachability.ReachableViaLocalAreaNetwork)
+        {
+            NetState = new StringBuilder("Wifi");
+            canUpload = true;
+        }
+        //当用户使用移动网络时
+        if (Application.internetReachability == NetworkReachability.ReachableViaCarrierDataNetwork)
+        {
+            NetState = new StringBuilder("Mobile NetWork");
+            canUpload = true;
+        }
+    }
+
+    // Use this for initialization  
+    void Start()
+    {
+        lab_netState.text = "";
+        BmobDebug.Register(print);
+        Bmob = gameObject.GetComponent<BmobUnity>();
         getAllInfo();
         UIEventListener.Get(btn_Submit.gameObject).onClick += OnSubmitClick;
-	}    
-	
-	void OnGUI()
+    }
+
+    void OnGUI()
     {
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    InsertData("wuzhang", 100);
+        //}
 #if false
         #region
         if (GUILayout.Button("Insert"))  
@@ -99,10 +128,11 @@ public class TestBmob : MonoBehaviour
         }
         #endregion
 #endif
-        lab_score.text = MenueController.getScore.ToString();
+        lab_score.text = (MenueController.getScore + GameControler.rewardScore).ToString();
+        lab_netState.text = NetState.ToString();
         if (dataList.Count == 0)
             return;
-        lab_user1.text = dataList[0].playerName+" "+dataList[0].score;
+        lab_user1.text = dataList[0].playerName + " " + dataList[0].score;
         lab_user2.text = dataList[1].playerName + " " + dataList[1].score;
         lab_user3.text = dataList[2].playerName + " " + dataList[2].score;
 
@@ -110,7 +140,7 @@ public class TestBmob : MonoBehaviour
         {
             Application.LoadLevel("first");
         }
-	}
+    }
 
     void OnSubmitClick(GameObject go)
     {
@@ -119,46 +149,129 @@ public class TestBmob : MonoBehaviour
         StartCoroutine(CheckData());
     }
 
+    /// <summary>
+    /// 检查用户是否已存在
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator CheckData()
     {
-        string objectid = AlreadyExists(inputName.value);
-        yield return new WaitForSeconds(1f);
-        if (objectid == "")
+        int score = MenueController.getScore + GameControler.rewardScore;
+        string objectID = "";
+        Debug.Log("用户名:" + inputName.value.Trim());
+        for (int i = 0; i < dataList.Count; i++)
         {
-            InsertData(inputName.value, MenueController.getScore);
+            if (inputName.value == dataList[i].playerName)
+            {
+                objectID = dataList[i].objectId;
+                break;
+            }
+            else
+                objectID = "";
+        }
+        if (string.IsNullOrEmpty(objectID))
+        {
+            Debug.Log("新增加数据");
+            InsertData(inputName.value.ToString(), score);
         }
         else
         {
-            updateData(AlreadyExists(inputName.value), MenueController.getScore);
-        } 
+            Debug.Log("更新数据：" + objectID);
+            updateData(objectID, score);
+        }
+        #region
+
+        /*
+        int score = MenueController.getScore + GameControler.rewardScore;
+        if (true || Application.internetReachability == NetworkReachability.ReachableViaLocalAreaNetwork
+            || Application.internetReachability == NetworkReachability.ReachableViaCarrierDataNetwork)
+        {
+            Debug.Log("Wifi");
+            //string objectid = AlreadyExists(inputName.value.Trim());
+            string objectID = "";
+            Debug.Log("用户名:" + inputName.value.Trim());
+            //对返回结果进行处理
+            List<MyGameTable> list = new List<MyGameTable>();
+            BmobQuery query = new BmobQuery();
+            Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
+            {
+                if (exception != null)
+                {
+                    print("查询失败, 失败原因为： " + exception.Message);
+                    return;
+                }
+                list.AddRange(resp.results);
+                foreach (var item in list)
+                {
+                    if (item.playerName.CompareTo(inputName.value.Trim()) == 0)
+                    {
+                        Debug.Log(item.playerName);
+                    }
+                }
+                for (int i = 0; i < list.Count; i++)
+                {
+                    Debug.Log(list[i].playerName + "  " + list[i].objectId);
+                    if (list[i].playerName == inputName.value.Trim())
+                    {
+                        objectID = list[i].objectId;
+                        Debug.Log("返回:" + objectID);
+                        break;
+                    }
+                }
+            });
+
+            Debug.Log(objectID);
+            yield return new WaitForEndOfFrame();
+            if (string.IsNullOrEmpty(objectID))
+            {
+                Debug.Log("新增加数据");
+                InsertData(inputName.value.ToString(), score);
+            }
+            else
+            {
+                Debug.Log("更新数据："+ objectID);
+                updateData(objectID, score);
+            }
+        }
+        else
+        {
+            btn_Submit.gameObject.SetActive(false);
+        }
+        */
+        #endregion
+        NetState = new StringBuilder("3s 后自动返回主菜单!");
+        yield return new WaitForSeconds(3f);
+        Application.LoadLevel("first");
+
     }
-	#region
-	/// <summary>
-	/// 插入数据
-	/// </summary>
-	void InsertData(string name,int score)  
-	{
-        
-		MyGameTable mg = new MyGameTable();
+    #region
+    /// <summary>
+    /// 插入数据
+    /// </summary>
+    void InsertData(string name, int score)
+    {
+
+        MyGameTable mg = new MyGameTable();
         mg.playerName = name;
         mg.score = score;
-		
-		Bmob.Create(MyGameTable.TABLENAME, mg, (resp, exception) =>  
-	    {  
-			if (exception != null)  
-			{  
-				Debug.Log("保存失败，原因： " + exception.Message);  
-			}  
-			else  
-			{  
-				Debug.Log("保存成功" + resp.createdAt);  
-			}  
-		});
+
+        Bmob.Create(MyGameTable.TABLENAME, mg, (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                Debug.Log("保存失败，原因： " + exception.Message);
+            }
+            else
+            {
+                Debug.Log("保存成功" + resp.createdAt);
+            }
+        });
         getAllInfo();
-	}  
+    }
 
     private string AlreadyExists(string userName)
     {
+        string objectID = "";
+        Debug.Log("用户名:"+userName);
         //对返回结果进行处理
         List<MyGameTable> list = new List<MyGameTable>();
         BmobQuery query = new BmobQuery();
@@ -169,76 +282,87 @@ public class TestBmob : MonoBehaviour
                 print("查询失败, 失败原因为： " + exception.Message);
                 return;
             }
-            list = resp.results;
+            list.AddRange(resp.results);
+            foreach (var item in list)
+            {
+                if (item.playerName.CompareTo(userName) == 0)
+                {
+                    Debug.Log(item.playerName);
+                }
+            }
             for (int i = 0; i < list.Count; i++)
             {
+                Debug.Log(list[i].playerName+"  "+list[i].objectId);
                 if (list[i].playerName == userName)
                 {
-                    myObjectid = list[i].objectId;
+                    objectID = list[i].objectId;
+                    Debug.Log("返回:"+ objectID);
+                    break;
                 }
             }
         });
-        return myObjectid;
+        return objectID;
     }
 
-	/// <summary>
-	/// 获取数据
-	/// </summary>
-	void getRecoard()
-	{
-		MyGameTable mg = new MyGameTable();  
-		Bmob.Get<MyGameTable>(MyGameTable.TABLENAME,"2TLe999G",(resp, exception) =>
-		                       {
-			if (exception != null)
-			{
-				print("查询失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			
-			MyGameTable game = resp;
-			print(game.playerName+","+game.score+","+game.objectId);
-			print("获取的对象为： " + game.ToString());
-		});
-	}
+    /// <summary>
+    /// 获取数据
+    /// </summary>
+    void getRecoard()
+    {
+        MyGameTable mg = new MyGameTable();
+        Bmob.Get<MyGameTable>(MyGameTable.TABLENAME, "2TLe999G", (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                print("查询失败, 失败原因为： " + exception.Message);
+                return;
+            }
 
-	/// <summary>
-	/// 更新数据
-	/// </summary>
-	void updateData(string objectID,int score)
-	{
-		MyGameTable game = new MyGameTable();
+            MyGameTable game = resp;
+            print(game.playerName + "," + game.score + "," + game.objectId);
+            print("获取的对象为： " + game.ToString());
+        });
+    }
+
+    /// <summary>
+    /// 更新数据
+    /// </summary>
+    void updateData(string objectID, int score)
+    {
+        MyGameTable game = new MyGameTable();
         game.score = score;
         Bmob.Update(MyGameTable.TABLENAME, objectID, game, (resp, exception) =>
-		{
-			if (exception != null)
-			{
-				print("保存失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			print("更新数据成功, @" + resp.updatedAt);
-		});
-	}
-	/// <summary>
-	/// 删除数据
-	/// </summary>
-	void deleteData()
-	{
-		Bmob.Delete(MyGameTable.TABLENAME, "4d05c4cd58", (resp, exception) =>
-		            {
-			if (exception != null)
-			{
-				print("删除失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			else
-			{
-				print("删除成功, @" + resp.msg);
-			}
-		});
-	}
-	#endregion
-	void getAllInfo()
-	{
+        {
+            if (exception != null)
+            {
+                print("保存失败, 失败原因为： " + exception.Message);
+                return;
+            }
+            print("更新数据成功, @" + resp.updatedAt);
+        });
+    }
+    /// <summary>
+    /// 删除数据
+    /// </summary>
+    void deleteData()
+    {
+        Bmob.Delete(MyGameTable.TABLENAME, "4d05c4cd58", (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                print("删除失败, 失败原因为： " + exception.Message);
+                return;
+            }
+            else
+            {
+                print("删除成功, @" + resp.msg);
+            }
+        });
+    }
+    #endregion
+    void getAllInfo()
+    {
+        #region 方法一
         /***************
         * 1.数据源排序
         ****************/
@@ -265,10 +389,11 @@ public class TestBmob : MonoBehaviour
         //        Debug.Log("得分:"+item);
         //    }
         //});
-
+        #endregion
         /***************
          * 2.数据库排序
          ****************/
+        dataList.Clear();
         BmobQuery query = new BmobQuery();
         query.OrderByDescending("Score");
         Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
@@ -282,88 +407,89 @@ public class TestBmob : MonoBehaviour
             //对返回结果进行处理
             foreach (var game in resp.results)
             {
-                print("获取的对象为： " +game.playerName+ " "+ game.score.ToString());
+                print("获取的对象为： " + game.playerName + " " + game.score.ToString());
             }
         });
-	}
+    }
+    #region
+    /// <summary>
+    /// 获取个人的游戏次数
+    /// </summary>
+    public void getPlayerCount()
+    {
+        BmobQuery query = new BmobQuery();
+        query.WhereEqualTo("playerName", "wuzhang");
+        query.Count();
+        Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                print("查询失败, 失败原因为： " + exception.Message);
+                return;
+            }
 
-	/// <summary>
-	/// 获取个人的游戏次数
-	/// </summary>
-	public void getPlayerCount()
-	{
-		BmobQuery query = new BmobQuery();
-		query.WhereEqualTo("playerName", "wuzhang");
-		query.Count ();
-		Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
-		                          {
-			if (exception != null)
-			{
-				print("查询失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			
-			List<MyGameTable> list = resp.results;
-			BmobInt count = resp.count;
-			print("参加战役数： " + count.Get());
-			foreach (var game in list)
-			{
-				print("获取的对象为： " + game.playerName.ToString()+","+game.score.ToString());
-			}
-		});
-	}
+            List<MyGameTable> list = resp.results;
+            BmobInt count = resp.count;
+            print("参加战役数： " + count.Get());
+            foreach (var game in list)
+            {
+                print("获取的对象为： " + game.playerName.ToString() + "," + game.score.ToString());
+            }
+        });
+    }
 
-	/// <summary>
-	/// 按列名查询得分（单列查询）
-	/// </summary>
-	/// <param name="column">Column.</param>
-	public void queryByColum()
-	{
-		BmobQuery query = new BmobQuery();
-		query.Select("score");
-		Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
-		                          {
-			if (exception != null)
-			{
-				print("查询失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			
-			List<MyGameTable> list = resp.results;
-			foreach (var game in list)
-			{
-				print("查询到的数据:"+game.score.ToString());
-			}
-		});
-	}
-	/// <summary>
-	/// 多列查询
-	/// </summary>
-	public void queryByMutiplyColumn()
-	{
-		BmobQuery query = new BmobQuery();
-		query.Select("playerName", "score");
-		Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
-		                       {
-			if (exception != null)
-			{
-				print("查询失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			
-			List<MyGameTable> list = resp.results;
-			foreach (var game in list)
-			{
-				print("查询到的数据:"+game.playerName.ToString()+","+game.score.ToString());
-			}
-		});
-	}
-	public void UploadFile()
-	{
-		//直接上传到Bmob服务器
+    /// <summary>
+    /// 按列名查询得分（单列查询）
+    /// </summary>
+    /// <param name="column">Column.</param>
+    public void queryByColum()
+    {
+        BmobQuery query = new BmobQuery();
+        query.Select("score");
+        Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                print("查询失败, 失败原因为： " + exception.Message);
+                return;
+            }
+
+            List<MyGameTable> list = resp.results;
+            foreach (var game in list)
+            {
+                print("查询到的数据:" + game.score.ToString());
+            }
+        });
+    }
+    /// <summary>
+    /// 多列查询
+    /// </summary>
+    public void queryByMutiplyColumn()
+    {
+        BmobQuery query = new BmobQuery();
+        query.Select("playerName", "score");
+        Bmob.Find<MyGameTable>(MyGameTable.TABLENAME, query, (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                print("查询失败, 失败原因为： " + exception.Message);
+                return;
+            }
+
+            List<MyGameTable> list = resp.results;
+            foreach (var game in list)
+            {
+                print("查询到的数据:" + game.playerName.ToString() + "," + game.score.ToString());
+            }
+        });
+    }
+    public void UploadFile()
+    {
+        #region
+        //直接上传到Bmob服务器
         //Bmob.FileUpload(Application.dataPath + "/Picture/My.png", (resp, exception) =>
         // {
-             
+
         //     if (exception != null)
         //     {
         //         print("上传失败, 失败原因为： " + exception.Message);
@@ -371,7 +497,7 @@ public class TestBmob : MonoBehaviour
         //     }
         //     print("上传成功，返回数据： " + resp.ToString());
         // });
-
+        #endregion
         var file = Application.dataPath + "/Picture/My.png";
         var ffuture = Bmob.FileUploadTaskAsync(file);
 
@@ -380,42 +506,43 @@ public class TestBmob : MonoBehaviour
         user.password = "123456";
         user.email = "123456@qq.com";
         user.file = ffuture.Result;
-	}
-	/// <summary>
-	/// 下载txt文本
-	/// </summary>
-	public void DownLoad()
-	{
-		print("Downloading...");
-		Bmob.Get<MyGameTable>(MyGameTable.TABLENAME,"o9VlFFFH",(resp, exception) =>
-		   {
-			if (exception != null)
-			{
-				print("查询失败, 失败原因为： " + exception.Message);
-				return;
-			}
-			
-			MyGameTable game = resp;
-			print(game.playerName+","+game.score+","+game.File.ToString());
-			print("获取的对象为： " + game.File.getPath() );
+    }
+    /// <summary>
+    /// 下载txt文本
+    /// </summary>
+    public void DownLoad()
+    {
+        print("Downloading...");
+        Bmob.Get<MyGameTable>(MyGameTable.TABLENAME, "o9VlFFFH", (resp, exception) =>
+        {
+            if (exception != null)
+            {
+                print("查询失败, 失败原因为： " + exception.Message);
+                return;
+            }
+
+            MyGameTable game = resp;
+            print(game.playerName + "," + game.score + "," + game.File.ToString());
+            print("获取的对象为： " + game.File.getPath());
             StartCoroutine("LoadFile", game.File.getPath());
-		});
-	}
-	/// <summary>
-	/// 异步加载网络文件
-	/// </summary>
-	/// <returns>The file.</returns>
-	/// <param name="url">URL.</param>
-	IEnumerator LoadFile(string url)  
-	{  
-		print(url);
-		WWW www = new WWW(url);
-		yield return www; // while (!www.isDone) {}
-		//quard.transform.renderer.material.mainTexture =www.texture; 
-		//string result = www.text;
-		//print("下载文本信息:"+result);
-	
-	}
+        });
+    }
+    /// <summary>
+    /// 异步加载网络文件
+    /// </summary>
+    /// <returns>The file.</returns>
+    /// <param name="url">URL.</param>
+    IEnumerator LoadFile(string url)
+    {
+        print(url);
+        WWW www = new WWW(url);
+        yield return www; 
+        // while (!www.isDone) {}
+        //quard.transform.renderer.material.mainTexture =www.texture; 
+        //string result = www.text;
+        //print("下载文本信息:"+result);
+
+    }
 
     void Signup()
     {
@@ -456,7 +583,7 @@ public class TestBmob : MonoBehaviour
 
     void gotCurrentUser()
     {
-        print("登录后用户： " +  (BmobUser.CurrentUser));
+        print("登录后用户： " + (BmobUser.CurrentUser));
     }
 
     void updateuser()
@@ -502,8 +629,6 @@ public class TestBmob : MonoBehaviour
                 print("获取的对象为： " + (game));
             }
         });
-
-
     }
 
     void ResetPassword()
@@ -554,6 +679,9 @@ public class TestBmob : MonoBehaviour
         });
     }
 
+    /// <summary>
+    /// 调用服务器函数
+    /// </summary>
     void endpoint()
     {
         Bmob.Endpoint<Hashtable>("test", (resp, exception) =>
@@ -563,7 +691,6 @@ public class TestBmob : MonoBehaviour
                 print("查询失败, 失败原因为： " + exception.Message);
                 return;
             }
-
             print("返回对象为： " + resp);
         });
     }
@@ -580,8 +707,7 @@ public class TestBmob : MonoBehaviour
             while (formHeadersIterator.MoveNext())
                 headers.Add((String)formHeadersIterator.Key, formHeadersIterator.Value);
         }
-
-
     }
+    #endregion
 
 }
