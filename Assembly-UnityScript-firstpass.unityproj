@@ -106,7 +106,7 @@
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Bmob-Unity">
- <HintPath>D:/Unity/Nyist-Bysj/SmartBaby/Assets/Plugins/Unity/Bmob-Unity.dll</HintPath>
+ <HintPath>G:/Project/SmartBaby/Assets/Plugins/Unity/Bmob-Unity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
