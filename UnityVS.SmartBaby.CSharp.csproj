@@ -307,7 +307,7 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Script\Bmob\GameUser.cs" />
     <Compile Include="Assets\Script\Bmob\MyGameTable.cs" />
-    <Compile Include="Assets\Script\Bmob\TestBmob.cs" />
+    <Compile Include="Assets\Script\Bmob\DataControler.cs" />
     <Compile Include="Assets\Script\Bmob\TestWeibo.cs" />
     <Compile Include="Assets\Script\ButtonCheckMovement.cs" />
     <Compile Include="Assets\Script\GameControler.cs" />
